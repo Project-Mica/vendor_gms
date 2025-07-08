@@ -190,7 +190,7 @@ product/overlay/PixelConfigOverlay2019Midyear.apk
 product/overlay/PixelConfigOverlay2021.apk
 product/overlay/PixelConfigOverlayCommon.apk
 product/overlay/PixelConnectivityOverlay2024.apk
-product/overlay/PixelDocumentsUIGoogleOverlay
+product/overlay/PixelDocumentsUIGoogleOverlay/PixelDocumentsUIGoogleOverlay.apk:product/overlay/PixelDocumentsUIGoogleOverlay.apk
 product/overlay/PixelSetupWizardOverlay2024.apk
 product/overlay/PixelTetheringOverlay2021.apk
 product/overlay/SettingsGoogle__komodo__auto_generated_rro_product.apk:product/overlay/PixelSettingsGoogle.apk
