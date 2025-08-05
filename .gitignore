@@ -1,0 +1,4 @@
+common/proprietary/system/*
+common/proprietary/system_ext/*
+common/proprietary/product/*
+!common/proprietary/product/overlay/
