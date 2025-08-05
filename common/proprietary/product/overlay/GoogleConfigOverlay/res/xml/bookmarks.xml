@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bookmarks xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <bookmark androidprv:keycode="KEYCODE_B" androidprv:lightY="0x00010000" role="android.app.role.BROWSER"/>
+    <bookmark androidprv:keycode="KEYCODE_P" androidprv:lightY="0x00010000" category="android.intent.category.APP_CONTACTS"/>
+    <bookmark androidprv:keycode="KEYCODE_E" androidprv:lightY="0x00010000" category="android.intent.category.APP_EMAIL"/>
+    <bookmark androidprv:keycode="KEYCODE_C" androidprv:lightY="0x00010000" category="android.intent.category.APP_CALENDAR"/>
+    <bookmark androidprv:keycode="KEYCODE_M" androidprv:lightY="0x00010000" category="android.intent.category.APP_MAPS"/>
+    <bookmark androidprv:keycode="KEYCODE_U" androidprv:lightY="0x00010000" category="android.intent.category.APP_CALCULATOR"/>
+    <bookmark androidprv:keycode="KEYCODE_Y" androidprv:lightY="0x00010000" class="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" package="com.google.android.youtube"/>
+</bookmarks>

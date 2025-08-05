@@ -91,7 +91,6 @@ android_app_import {
 	name: "CalculatorGooglePrebuilt_85005407",
 	owner: "gms",
 	apk: "proprietary/product/app/CalculatorGooglePrebuilt_85005407/CalculatorGooglePrebuilt_85005407.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	overrides: ["ExactCalculator"],
 	preprocessed: true,
 	presigned: true,
@@ -105,7 +104,6 @@ android_app_import {
 	name: "CalendarGooglePrebuilt",
 	owner: "gms",
 	apk: "proprietary/product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	overrides: ["Calendar2", "Calendar", "Etar"],
 	preprocessed: true,
 	presigned: true,
@@ -129,9 +127,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "DevicePolicyPrebuilt-v10052480",
+	name: "DevicePolicyPrebuilt-v10306480",
 	owner: "gms",
-	apk: "proprietary/product/app/DevicePolicyPrebuilt-v10052480/DevicePolicyPrebuilt-v10052480.apk",
+	apk: "proprietary/product/app/DevicePolicyPrebuilt-v10306480/DevicePolicyPrebuilt-v10306480.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -144,7 +142,6 @@ android_app_import {
 	name: "GoogleContacts",
 	owner: "gms",
 	apk: "proprietary/product/app/GoogleContacts/GoogleContacts.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	overrides: ["Contacts", "Contacts2"],
 	preprocessed: true,
 	presigned: true,
@@ -171,7 +168,6 @@ android_app_import {
 	name: "LatinIMEGooglePrebuilt",
 	owner: "gms",
 	apk: "proprietary/product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	overrides: ["LatinIME"],
 	preprocessed: true,
 	presigned: true,
@@ -185,19 +181,6 @@ android_app_import {
 	name: "LocationHistoryPrebuilt",
 	owner: "gms",
 	apk: "proprietary/product/app/LocationHistoryPrebuilt/LocationHistoryPrebuilt.apk",
-	preprocessed: true,
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "Maps",
-	owner: "gms",
-	apk: "proprietary/product/app/Maps/Maps.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -246,20 +229,7 @@ android_app_import {
 	name: "Photos",
 	owner: "gms",
 	apk: "proprietary/product/app/Photos/Photos.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	overrides: ["Gallery2"],
-	preprocessed: true,
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "PixelThemesStub",
-	owner: "gms",
-	apk: "proprietary/product/app/PixelThemesStub/PixelThemesStub.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -292,11 +262,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PrebuiltGmail",
+	name: "PlayAutoInstallConfig",
 	owner: "gms",
-	apk: "proprietary/product/app/PrebuiltGmail/PrebuiltGmail.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
-	overrides: ["Email"],
+	apk: "proprietary/product/app/PlayAutoInstallConfig/PlayAutoInstallConfig.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -318,9 +286,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SoundPickerPrebuilt_31000232",
+	name: "SoundPickerPrebuilt_32000122",
 	owner: "gms",
-	apk: "proprietary/product/app/SoundPickerPrebuilt_31000232/SoundPickerPrebuilt_31000232.apk",
+	apk: "proprietary/product/app/SoundPickerPrebuilt_32000122/SoundPickerPrebuilt_32000122.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -330,10 +298,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SwitchAccessPrebuilt_1.15.0.629986523",
+	name: "SwitchAccessPrebuilt_1.16.0.726766860",
 	owner: "gms",
-	apk: "proprietary/product/app/SwitchAccessPrebuilt_1.15.0.629986523/SwitchAccessPrebuilt_1.15.0.629986523.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
+	apk: "proprietary/product/app/SwitchAccessPrebuilt_1.16.0.726766860/SwitchAccessPrebuilt_1.16.0.726766860.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -355,9 +322,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "WallpaperAIPrebuilt_10000212",
+	name: "WallpaperAIPrebuilt_10000342",
 	owner: "gms",
-	apk: "proprietary/product/app/WallpaperAIPrebuilt_10000212/WallpaperAIPrebuilt_10000212.apk",
+	apk: "proprietary/product/app/WallpaperAIPrebuilt_10000342/WallpaperAIPrebuilt_10000342.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -367,9 +334,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "WallpaperEmojiPrebuilt-v2804",
+	name: "WallpaperEmojiPrebuilt-v4504",
 	owner: "gms",
-	apk: "proprietary/product/app/WallpaperEmojiPrebuilt-v2804/WallpaperEmojiPrebuilt-v2804.apk",
+	apk: "proprietary/product/app/WallpaperEmojiPrebuilt-v4504/WallpaperEmojiPrebuilt-v4504.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -407,7 +374,6 @@ android_app_import {
 	name: "talkback",
 	owner: "gms",
 	apk: "proprietary/product/app/talkback/talkback.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -417,9 +383,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "AICorePrebuilt-aicore_20240509.01_RC02",
+	name: "AICorePrebuilt-aicore_20250130.00_RC01",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/AICorePrebuilt-aicore_20240509.01_RC02/AICorePrebuilt-aicore_20240509.01_RC02.apk",
+	apk: "proprietary/product/priv-app/AICorePrebuilt-aicore_20250130.00_RC01/AICorePrebuilt-aicore_20250130.00_RC01.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -433,7 +399,6 @@ android_app_import {
 	name: "AndroidAutoStubPrebuilt",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/AndroidAutoStubPrebuilt/AndroidAutoStubPrebuilt.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -457,10 +422,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "DeviceIntelligenceNetworkPrebuilt-U.32_V.7_playstore_astrea_20240725.00_RC01",
+	name: "CreativeAssistant",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/DeviceIntelligenceNetworkPrebuilt-U.32_V.7_playstore_astrea_20240725.00_RC01/DeviceIntelligenceNetworkPrebuilt-U.32_V.7_playstore_astrea_20240725.00_RC01.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
+	apk: "proprietary/product/priv-app/CreativeAssistant/CreativeAssistant.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -471,10 +435,22 @@ android_app_import {
 }
 
 android_app_import {
-	name: "DevicePersonalizationPrebuiltPixel2024-U.32_V.7_playstore_aiai_20240725.00_RC08",
+	name: "DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2024-U.32_V.7_playstore_aiai_20240725.00_RC08/DevicePersonalizationPrebuiltPixel2024-U.32_V.7_playstore_aiai_20240725.00_RC08.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
+	apk: "proprietary/product/priv-app/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "DevicePersonalizationPrebuiltPixel2024-bfinal_aiai_20250217.00_RC08",
+	owner: "gms",
+	apk: "proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2024-bfinal_aiai_20250217.00_RC08/DevicePersonalizationPrebuiltPixel2024-bfinal_aiai_20250217.00_RC08.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -488,7 +464,6 @@ android_app_import {
 	name: "FilesPrebuilt",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/FilesPrebuilt/FilesPrebuilt.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -513,10 +488,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "GoogleRestorePrebuilt-v636048",
+	name: "GoogleRestorePrebuilt-v717308",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/GoogleRestorePrebuilt-v636048/GoogleRestorePrebuilt-v636048.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
+	apk: "proprietary/product/priv-app/GoogleRestorePrebuilt-v717308/GoogleRestorePrebuilt-v717308.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -543,7 +517,6 @@ android_app_import {
 	name: "Phonesky",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/Phonesky/Phonesky.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	overrides: ["messaging"],
 	preprocessed: true,
 	presigned: true,
@@ -555,9 +528,22 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PixelLiveWallpaperPrebuilt-25000013",
+	name: "PixelAIPrebuilt",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PixelLiveWallpaperPrebuilt-25000013/PixelLiveWallpaperPrebuilt-25000013.apk",
+	apk: "proprietary/product/priv-app/PixelAIPrebuilt/PixelAIPrebuilt.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "PixelLiveWallpaperPrebuilt-26000013",
+	owner: "gms",
+	apk: "proprietary/product/priv-app/PixelLiveWallpaperPrebuilt-26000013/PixelLiveWallpaperPrebuilt-26000013.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -571,7 +557,6 @@ android_app_import {
 	name: "PrebuiltDeskClockGoogle_76006071",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/PrebuiltDeskClockGoogle_76006071/PrebuiltDeskClockGoogle_76006071.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	overrides: ["DeskClock"],
 	preprocessed: true,
 	presigned: true,
@@ -583,23 +568,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PrebuiltGmsCore",
+	name: "PrebuiltGmsCoreVic_AdsDynamite",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
-	preprocessed: true,
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "PrebuiltGmsCoreVic_AdsDynamite.uncompressed",
-	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_AdsDynamite.uncompressed.apk",
+	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_AdsDynamite/PrebuiltGmsCoreVic_AdsDynamite.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -612,7 +583,7 @@ android_app_import {
 android_app_import {
 	name: "PrebuiltGmsCoreVic_CronetDynamite",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_CronetDynamite.apk",
+	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_CronetDynamite/PrebuiltGmsCoreVic_CronetDynamite.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -623,9 +594,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PrebuiltGmsCoreVic_DynamiteLoader.uncompressed",
+	name: "PrebuiltGmsCoreVic_DynamiteLoader",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_DynamiteLoader.uncompressed.apk",
+	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_DynamiteLoader/PrebuiltGmsCoreVic_DynamiteLoader.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -638,7 +609,7 @@ android_app_import {
 android_app_import {
 	name: "PrebuiltGmsCoreVic_DynamiteModulesA",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_DynamiteModulesA.apk",
+	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_DynamiteModulesA/PrebuiltGmsCoreVic_DynamiteModulesA.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -651,7 +622,7 @@ android_app_import {
 android_app_import {
 	name: "PrebuiltGmsCoreVic_DynamiteModulesC",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_DynamiteModulesC.apk",
+	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_DynamiteModulesC/PrebuiltGmsCoreVic_DynamiteModulesC.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -664,7 +635,7 @@ android_app_import {
 android_app_import {
 	name: "PrebuiltGmsCoreVic_GoogleCertificates",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_GoogleCertificates.apk",
+	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_GoogleCertificates/PrebuiltGmsCoreVic_GoogleCertificates.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -677,7 +648,7 @@ android_app_import {
 android_app_import {
 	name: "PrebuiltGmsCoreVic_MapsDynamite",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_MapsDynamite.apk",
+	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_MapsDynamite/PrebuiltGmsCoreVic_MapsDynamite.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -690,7 +661,7 @@ android_app_import {
 android_app_import {
 	name: "PrebuiltGmsCoreVic_MeasurementDynamite",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_MeasurementDynamite.apk",
+	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_MeasurementDynamite/PrebuiltGmsCoreVic_MeasurementDynamite.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -704,7 +675,6 @@ android_app_import {
 	name: "AndroidPlatformServices",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/PrebuiltGmsCore/m/independent/AndroidPlatformServices/AndroidPlatformServices.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -717,7 +687,7 @@ android_app_import {
 android_app_import {
 	name: "MlkitBarcodeUIPrebuilt",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/m/optional/MlkitBarcodeUIPrebuilt.apk",
+	apk: "proprietary/product/priv-app/PrebuiltGmsCore/m/optional/MlkitBarcodeUIPrebuilt/MlkitBarcodeUIPrebuilt.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -730,7 +700,7 @@ android_app_import {
 android_app_import {
 	name: "TfliteDynamitePrebuilt",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/m/optional/TfliteDynamitePrebuilt.apk",
+	apk: "proprietary/product/priv-app/PrebuiltGmsCore/m/optional/TfliteDynamitePrebuilt/TfliteDynamitePrebuilt.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -743,7 +713,7 @@ android_app_import {
 android_app_import {
 	name: "VisionBarcodePrebuilt",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/m/optional/VisionBarcodePrebuilt.apk",
+	apk: "proprietary/product/priv-app/PrebuiltGmsCore/m/optional/VisionBarcodePrebuilt/VisionBarcodePrebuilt.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -754,9 +724,35 @@ android_app_import {
 }
 
 android_app_import {
-	name: "RecorderPrebuilt_675788680",
+	name: "PrebuiltGmsCoreVic",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/RecorderPrebuilt_675788680/RecorderPrebuilt_675788680.apk",
+	apk: "proprietary/product/priv-app/PrebuiltGmsCoreVic/PrebuiltGmsCoreVic.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "PrebuiltPixelCoreServices",
+	owner: "gms",
+	apk: "proprietary/product/priv-app/PrebuiltPixelCoreServices/PrebuiltPixelCoreServices.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "RecorderPrebuilt_715214189",
+	owner: "gms",
+	apk: "proprietary/product/priv-app/RecorderPrebuilt_715214189/RecorderPrebuilt_715214189.apk",
 	overrides: ["Recorder"],
 	preprocessed: true,
 	presigned: true,
@@ -768,10 +764,22 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SafetyHubSuwPrebuilt",
+	name: "RelationshipsPrebuilt-1",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/SafetyHubSuwPrebuilt/SafetyHubSuwPrebuilt.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
+	apk: "proprietary/product/priv-app/RelationshipsPrebuilt-1/RelationshipsPrebuilt-1.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "SafetyHubPrebuilt",
+	owner: "gms",
+	apk: "proprietary/product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk",
 	overrides: ["EmergencyInfo"],
 	preprocessed: true,
 	presigned: true,
@@ -783,9 +791,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ScribePrebuilt_v7.0.633113815",
+	name: "ScribePrebuilt_v8.2.717788270",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/ScribePrebuilt_v7.0.633113815/ScribePrebuilt_v7.0.633113815.apk",
+	apk: "proprietary/product/priv-app/ScribePrebuilt_v8.2.717788270/ScribePrebuilt_v8.2.717788270.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -799,7 +807,6 @@ android_app_import {
 	name: "SearchSelectorPrebuilt",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/SearchSelectorPrebuilt/SearchSelectorPrebuilt.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -813,7 +820,6 @@ android_app_import {
 	name: "SettingsIntelligenceGooglePrebuilt",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -827,7 +833,6 @@ android_app_import {
 	name: "SetupWizardPrebuilt",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/SetupWizardPrebuilt/SetupWizardPrebuilt.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	overrides: ["Provision"],
 	preprocessed: true,
 	presigned: true,
@@ -842,7 +847,6 @@ android_app_import {
 	name: "TurboPrebuilt",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/TurboPrebuilt/TurboPrebuilt.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -856,7 +860,6 @@ android_app_import {
 	name: "Velvet",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/Velvet/Velvet.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	overrides: ["QuickSearchBox"],
 	preprocessed: true,
 	presigned: true,
@@ -881,9 +884,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "WeatherPixelPrebuilt_24D1",
+	name: "WeatherPixelPrebuilt_10004303",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/WeatherPixelPrebuilt_24D1/WeatherPixelPrebuilt_24D1.apk",
+	apk: "proprietary/product/priv-app/WeatherPixelPrebuilt_10004303/WeatherPixelPrebuilt_10004303.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -897,7 +900,6 @@ android_app_import {
 	name: "WellbeingPrebuilt",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/WellbeingPrebuilt/WellbeingPrebuilt.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -942,6 +944,18 @@ android_app_import {
 }
 
 android_app_import {
+	name: "PersistentBackgroundServices",
+	owner: "gms",
+	apk: "proprietary/system_ext/app/PersistentBackgroundServices/PersistentBackgroundServices.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "AvatarPickerGoogle",
 	owner: "gms",
 	apk: "proprietary/system_ext/priv-app/AvatarPickerGoogle/AvatarPickerGoogle.apk",
@@ -959,7 +973,6 @@ android_app_import {
 	name: "GoogleServicesFramework",
 	owner: "gms",
 	apk: "proprietary/system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -987,7 +1000,6 @@ android_app_import {
 	name: "SetupWizardPixelPrebuilt",
 	owner: "gms",
 	apk: "proprietary/system_ext/priv-app/SetupWizardPixelPrebuilt/SetupWizardPixelPrebuilt.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	overrides: ["LineageSetupWizard"],
 	preprocessed: true,
 	presigned: true,
@@ -1141,7 +1153,6 @@ android_app_import {
 	name: "PrebuiltBugle",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/PrebuiltBugle/PrebuiltBugle.apk",
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 	overrides: ["messaging"],
 	preprocessed: true,
 	presigned: true,

@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/permissions/com.google.android.odad.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.odad.xml \
     vendor/gms/common/proprietary/product/etc/permissions/com.google.omadm.trigger.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.omadm.trigger.xml \
     vendor/gms/common/proprietary/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml \
+    vendor/gms/common/proprietary/product/etc/permissions/privapp-permissions-google-pearl.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-pearl.xml \
     vendor/gms/common/proprietary/product/etc/permissions/split-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/split-permissions-google.xml \
     vendor/gms/common/proprietary/product/etc/preferred-apps/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/preferred-apps/google.xml \
     vendor/gms/common/proprietary/product/etc/security/fsverity/gms_fsverity_cert.der:$(TARGET_COPY_OUT_PRODUCT)/etc/security/fsverity/gms_fsverity_cert.der \
@@ -49,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/preinstalled-packages-product-pixel-2022-and-newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-pixel-2022-and-newer.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/preinstalled-packages-product-pixel-2023-and-newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-pixel-2023-and-newer.xml \
+    vendor/gms/common/proprietary/product/etc/sysconfig/preinstalled-packages-product-pixel-2024-and-newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-pixel-2024-and-newer.xml \
     vendor/gms/common/proprietary/product/media/audio/alarms/A_real_hoot.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/A_real_hoot.ogg \
     vendor/gms/common/proprietary/product/media/audio/alarms/Bright_morning.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Bright_morning.ogg \
     vendor/gms/common/proprietary/product/media/audio/alarms/Cuckoo_clock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Cuckoo_clock.ogg \
@@ -97,7 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/media/audio/ui/Effect_Tick.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Effect_Tick.ogg \
     vendor/gms/common/proprietary/product/media/audio/ui/InCallNotification.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/InCallNotification.ogg \
     vendor/gms/common/proprietary/product/media/audio/ui/KeypressDelete.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressDelete.ogg \
-    vendor/gms/common/proprietary/product/media/audio/ui/KeypressInvalid.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressInvalid.ogg \
     vendor/gms/common/proprietary/product/media/audio/ui/KeypressReturn.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressReturn.ogg \
     vendor/gms/common/proprietary/product/media/audio/ui/KeypressSpacebar.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressSpacebar.ogg \
     vendor/gms/common/proprietary/product/media/audio/ui/KeypressStandard.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressStandard.ogg \
@@ -108,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/media/audio/ui/NFCSuccess.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/NFCSuccess.ogg \
     vendor/gms/common/proprietary/product/media/audio/ui/NFCTransferComplete.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/NFCTransferComplete.ogg \
     vendor/gms/common/proprietary/product/media/audio/ui/NFCTransferInitiated.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/NFCTransferInitiated.ogg \
-    vendor/gms/common/proprietary/product/media/audio/ui/Trusted.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Trusted.ogg \
     vendor/gms/common/proprietary/product/media/audio/ui/Undock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Undock.ogg \
     vendor/gms/common/proprietary/product/media/audio/ui/Unlock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Unlock.ogg \
     vendor/gms/common/proprietary/product/media/audio/ui/VideoRecord.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/VideoRecord.ogg \
@@ -194,31 +194,6 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/system_ext/etc/permissions/privapp-permissions-google-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se.xml \
     vendor/gms/common/proprietary/system_ext/etc/sysconfig/preinstalled-packages-com.android.google.avatarpicker.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/preinstalled-packages-com.android.google.avatarpicker.xml
 
-# Recorder
-ifeq ($(TARGET_SUPPORTS_GOOGLE_RECORDER),true)
-PRODUCT_PACKAGES += \
-    RecorderPrebuilt_675788680
-endif
-
-# arcore
-ifeq ($(TARGET_INCLUDE_STOCK_ARCORE),true)
-PRODUCT_PACKAGES += \
-    arcore-1.42
-endif
-
-# AICore
-ifeq ($(TARGET_INCLUDE_STOCK_AICORE),true)
-PRODUCT_PACKAGES += \
-    AICorePrebuilt-aicore_20240509.01_RC02
-endif
-
-# Live Wallpapers
-ifeq ($(TARGET_INCLUDE_LIVE_WALLPAPERS),true)
-PRODUCT_PACKAGES += \
-    PixelLiveWallpaperPrebuilt-25000013 \
-    PixelWallpapers2024
-endif
-
 PRODUCT_PACKAGES += \
     GoogleExtShared \
     GooglePrintRecommendationService \
@@ -228,41 +203,44 @@ PRODUCT_PACKAGES += \
     CalculatorGooglePrebuilt_85005407 \
     CalendarGooglePrebuilt \
     Chrome-Stub \
-    DevicePolicyPrebuilt-v10052480 \
+    DevicePolicyPrebuilt-v10306480 \
     GoogleContacts \
     GoogleTTS \
     LatinIMEGooglePrebuilt \
     LocationHistoryPrebuilt \
-    Maps \
     MarkupGoogle_v2 \
     ModuleMetadataGoogle \
     NgaResources \
     Photos \
-    PixelThemesStub \
     PixelThemesStub2022_and_newer \
-    PrebuiltGmail \
+    PixelWallpapers2024 \
+    PlayAutoInstallConfig \
     SoundAmplifierPrebuilt_v4.7.638126989 \
-    SoundPickerPrebuilt_31000232 \
-    SwitchAccessPrebuilt_1.15.0.629986523 \
+    SoundPickerPrebuilt_32000122 \
+    SwitchAccessPrebuilt_1.16.0.726766860 \
     TrichromeLibrary-Stub \
-    WallpaperAIPrebuilt_10000212 \
-    WallpaperEmojiPrebuilt-v2804 \
+    WallpaperAIPrebuilt_10000342 \
+    WallpaperEmojiPrebuilt-v4504 \
     WebViewGoogle-Stub \
+    arcore-1.42 \
     talkback \
+    AICorePrebuilt-aicore_20250130.00_RC01 \
     AndroidAutoStubPrebuilt \
     ConfigUpdater \
-    DeviceIntelligenceNetworkPrebuilt-U.32_V.7_playstore_astrea_20240725.00_RC01 \
-    DevicePersonalizationPrebuiltPixel2024-U.32_V.7_playstore_aiai_20240725.00_RC08 \
+    CreativeAssistant \
+    DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02 \
+    DevicePersonalizationPrebuiltPixel2024-bfinal_aiai_20250217.00_RC08 \
     FilesPrebuilt \
     GoogleOneTimeInitializer \
-    GoogleRestorePrebuilt-v636048 \
+    GoogleRestorePrebuilt-v717308 \
     PartnerSetupPrebuilt \
     Phonesky \
+    PixelAIPrebuilt \
+    PixelLiveWallpaperPrebuilt-26000013 \
     PrebuiltDeskClockGoogle_76006071 \
-    PrebuiltGmsCore \
-    PrebuiltGmsCoreVic_AdsDynamite.uncompressed \
+    PrebuiltGmsCoreVic_AdsDynamite \
     PrebuiltGmsCoreVic_CronetDynamite \
-    PrebuiltGmsCoreVic_DynamiteLoader.uncompressed \
+    PrebuiltGmsCoreVic_DynamiteLoader \
     PrebuiltGmsCoreVic_DynamiteModulesA \
     PrebuiltGmsCoreVic_DynamiteModulesC \
     PrebuiltGmsCoreVic_GoogleCertificates \
@@ -272,19 +250,24 @@ PRODUCT_PACKAGES += \
     MlkitBarcodeUIPrebuilt \
     TfliteDynamitePrebuilt \
     VisionBarcodePrebuilt \
-    SafetyHubSuwPrebuilt \
-    ScribePrebuilt_v7.0.633113815 \
+    PrebuiltGmsCoreVic \
+    PrebuiltPixelCoreServices \
+    RecorderPrebuilt_715214189 \
+    RelationshipsPrebuilt-1 \
+    SafetyHubPrebuilt \
+    ScribePrebuilt_v8.2.717788270 \
     SearchSelectorPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     SetupWizardPrebuilt \
     TurboPrebuilt \
     Velvet \
     WallpaperEffect \
-    WeatherPixelPrebuilt_24D1 \
+    WeatherPixelPrebuilt_10004303 \
     WellbeingPrebuilt \
     AccessibilityMenu \
     EmergencyInfoGoogleNoUi \
     Flipendo \
+    PersistentBackgroundServices \
     AvatarPickerGoogle \
     GoogleServicesFramework \
     NexusLauncherRelease \

@@ -31,7 +31,8 @@
     <string-array name="config_rawContactsEligibleDefaultAccountTypes">
         <item>com.google</item>
     </string-array>
-    <string-array name="config_setRawContactsDefaultAccountKnownSigners">
+    <string-array name="config_setContactsDefaultAccountKnownSigners">
         <item>F0FD6C5B410F25CB25C3B53346C8972FAE30F8EE7411DF910480AD6B2D60DB83</item>
+        <item>1975B2F17177BC89A5DFF31F9E64A6CAE281A53DC1D1D59B1D147FE1C82AFA00</item>
     </string-array>
 </resources>

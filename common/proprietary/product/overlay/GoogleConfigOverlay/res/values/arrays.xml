@@ -4,6 +4,11 @@
         <item>advertising_id</item>
         <item>limit_ad_tracking</item>
     </string-array>
+    <string-array name="config_backupHealthConnectDataAndSettingsKnownSigners">
+        <item>4F59009D33D5B8C60E4B14623A771EBA08E5C02D2F0A124DE8D184AA9DAF00B4</item>
+        <item>5F2391277B1DBD489000467E4C2FA6AF802430080457DCE2F618992E9DFB5402</item>
+        <item>3B062A8FD947C2574749F6609E51D29C4C86525248DD94A3D5D6CD8C338A4D84</item>
+    </string-array>
     <string-array name="config_companionDeviceCerts">
         <item>48:ED:00:58:D1:B6:63:8E:39:A6:E4:C2:DF:1C:4D:5F:DF:59:3F:69:6B:F3:1B:09:A8:8F:93:14:1E:AF:60:0F</item>
     </string-array>
@@ -42,8 +47,17 @@
         <item>com.google.</item>
         <item>com.android.</item>
     </string-array>
+    <string-array name="config_notificationDefaultUnsupportedAdjustments">
+        <item>key_type</item>
+        <item>key_summarization</item>
+    </string-array>
     <string-array name="config_primaryCredentialProviderService">
         <item>com.google.android.gms/.auth.api.credentials.credman.service.PasswordAndPasskeyService</item>
+    </string-array>
+    <string-array name="config_restoreHealthConnectDataAndSettingsKnownSigners">
+        <item>4F59009D33D5B8C60E4B14623A771EBA08E5C02D2F0A124DE8D184AA9DAF00B4</item>
+        <item>5F2391277B1DBD489000467E4C2FA6AF802430080457DCE2F618992E9DFB5402</item>
+        <item>3B062A8FD947C2574749F6609E51D29C4C86525248DD94A3D5D6CD8C338A4D84</item>
     </string-array>
     <string-array name="config_trustedAccessibilityServices">
         <item>com.google.android.apps.accessibility.voiceaccess/com.google.android.apps.accessibility.voiceaccess.JustSpeakService</item>

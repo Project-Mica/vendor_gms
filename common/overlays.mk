@@ -18,6 +18,7 @@ PRODUCT_PACKAGES += \
     PixelConnectivityOverlay2024 \
     PixelContactsProvider \
     PixelDeviceDiagnostics \
+    PixelDocumentsUIGoogleOverlay \
     Pixelframework-res \
     PixelSettingsGoogle \
     PixelSettingsProvider \
@@ -27,3 +28,4 @@ PRODUCT_PACKAGES += \
     PixelTeleService \
     PixelTetheringOverlay2021 \
     SystemUIGXOverlay \
+    WildlifeSettingsVpnOverlay2022 \

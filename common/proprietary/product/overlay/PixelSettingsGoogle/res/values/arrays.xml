@@ -3,6 +3,13 @@
     <integer-array name="config_carrier_use_rac">
         <item>2397</item>
         <item>25</item>
+        <item>28</item>
+        <item>19</item>
+        <item>22</item>
+        <item>29</item>
+        <item>20</item>
+        <item>23</item>
+        <item>1452</item>
     </integer-array>
     <integer-array name="config_psim_conversion_menu_enabled_carrier">
         <item>1</item>

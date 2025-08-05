@@ -7,10 +7,10 @@
     <bool name="config_safetyProtectionEnabled">true</bool>
     <bool name="config_sendPackageName">true</bool>
     <bool name="config_smart_battery_available">true</bool>
+    <bool name="config_supportDoubleTapSleep">true</bool>
     <bool name="config_supportLongPressPowerWhenNonInteractive">true</bool>
     <bool name="config_supportsCamToggle">true</bool>
     <bool name="config_supportsMicToggle">true</bool>
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
     <bool name="config_systemCaptionsServiceCallsEnabled">true</bool>
-    <bool name="config_useRoundIcon">true</bool>
 </resources>

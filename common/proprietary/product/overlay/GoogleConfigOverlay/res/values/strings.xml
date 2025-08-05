@@ -30,6 +30,8 @@
     <string name="config_devicePolicyManagementUpdater">com.google.android.gms</string>
     <string name="config_dreamsDefaultComponent">com.google.android.deskclock/com.android.deskclock.Screensaver</string>
     <string name="config_healthConnectMigratorPackageName">com.google.android.apps.healthdata</string>
+    <string name="config_help_url_action_disabled_by_advanced_protection">intent:#Intent;action=com.google.android.gms.settings.ADVANCED_PROTECTION;package=com.google.android.gms;end</string>
+    <string name="config_intrusionDetectionEventTransport">com.google.android.gms/.intrusiondetection.service.IntrusionDetectionEventTransportService</string>
     <string name="config_oemCredentialManagerDialogComponent">com.google.android.gms/.identitycredentials.ui.CredentialChooserActivity</string>
     <string name="config_persistentDataPackageName">com.google.android.gms</string>
     <string name="config_primaryLocationTimeZoneProviderPackageName">com.google.android.gms</string>
@@ -41,6 +43,7 @@
     <string name="config_systemCallStreaming">com.google.android.gms</string>
     <string name="config_systemCompanionDeviceProvider">com.google.android.gms</string>
     <string name="config_systemContacts">com.google.android.contacts</string>
+    <string name="config_systemDependencyInstaller">com.google.android.gms</string>
     <string name="config_systemFinancedDeviceController">com.google.android.devicelockcontroller</string>
     <string name="config_systemGallery">com.google.android.apps.photos</string>
     <string name="config_systemGameService">com.google.android.gms</string>

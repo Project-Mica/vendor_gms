@@ -82,4 +82,4 @@ process_optional_libs() {
     done < "$libs_file"
 }
 
-process_optional_libs
+#process_optional_libs

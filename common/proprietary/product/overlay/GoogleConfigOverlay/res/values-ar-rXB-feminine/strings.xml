@@ -9,6 +9,7 @@
     <string name="config_devicePolicyManagement">(F)‏‮com.google.android.apps.work.clouddpc:23962F4B43B9857638EA66F4D419518EAE282491ACDA4B94707BD59003C45E58‬‏</string>
     <string name="config_devicePolicyManagementUpdater">(F)‏‮com.google.android.gms‬‏</string>
     <string name="config_healthConnectMigratorPackageName">(F)‏‮com.google.android.apps.healthdata‬‏</string>
+    <string name="config_systemDependencyInstaller">(F)‏‮com.google.android.gms‬‏</string>
     <string name="harmful_app_warning_title">(F)‏‮Play‬‏ ‏‮Protect‬‏ ‏‮warning‬‏</string>
     <string name="identity_check_settings_action">(F)‏‮com.google.android.gms.personalsafety.settings.IDENTITY_CHECK_SWITCH‬‏</string>
     <string name="identity_check_settings_package_name">(F)‏‮com.google.android.gms‬‏</string>
