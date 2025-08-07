@@ -57,6 +57,15 @@ function overlay_magic() {
     "${MY_DIR}/rro-utils/overlayMagic.sh" "$1" "$2" &
 }
 
+FWK_INSTALLED=0
+
+overlay_install_fwk() {
+    if [ "$FWK_INSTALLED" -eq 0 ]; then
+        apktool if "${SRC}/system/framework/framework-res.apk"
+        FWK_INSTALLED=1
+    fi
+}
+
 function beautify_rro() {
     local overlay_dir="${MY_DIR}/common/proprietary/product/overlay"
 
@@ -73,6 +82,7 @@ function blob_fixup() {
     case "${1}" in
        product/overlay/*apk)
             [ "$2" = "" ] && return 0
+            overlay_install_fwk
             overlay_magic "$1" "$2"
             ;;
         system/priv-app/GoogleExtServices/GoogleExtServices.apk)
