@@ -61,7 +61,12 @@ FWK_INSTALLED=0
 
 overlay_install_fwk() {
     if [ "$FWK_INSTALLED" -eq 0 ]; then
-        apktool if "${SRC}/system/framework/framework-res.apk"
+        if [ -f "${SRC}/system/framework/framework-res.apk" ]; then
+            apktool if "${SRC}/system/framework/framework-res.apk"
+        fi
+        if [ -f "${SRC}/system/system/framework/framework-res.apk" ]; then
+            apktool if "${SRC}/system/system/framework/framework-res.apk"
+        fi
         FWK_INSTALLED=1
     fi
 }
