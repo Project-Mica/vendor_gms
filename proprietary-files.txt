@@ -41,7 +41,7 @@ product/priv-app/DevicePersonalizationPrebuiltPixel2024-bfinal_aiai_20250217.00_
 
 # ExtServices
 system/etc/permissions/privapp_allowlist_com.google.android.ext.services.xml|f97a3feef96930810d453e9eaab466ef10c4e918
-system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|3aea2338ac861a03a8732c70c4543aebff5f3e5b
+system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|34d8bea545367bcc156f496838b9fe9675419456
 
 # Files
 product/priv-app/FilesPrebuilt/FilesPrebuilt.apk;PRESIGNED

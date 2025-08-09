@@ -47,6 +47,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     GoogleSettingsOverlay
 
+# CarrierSettings overlay
+PRODUCT_PACKAGES += \
+    CarrierSettingsConfigOverlay \
+    CarrierSettingsOverlay \
+    CarrierSettingsProviderOverlay \
+    CarrierSettingsSystemUIOverlay
+
 # Google Battery
 TARGET_DOES_NOT_SUPPORT_GOOGLE_BATTERY ?= true
 
