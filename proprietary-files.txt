@@ -388,21 +388,11 @@ product/priv-app/WeatherPixelPrebuilt_10004303/WeatherPixelPrebuilt_10004303.apk
 # Wellbeing
 product/priv-app/WellbeingPrebuilt/WellbeingPrebuilt.apk;PRESIGNED
 
-# Creative Assistant
-product/priv-app/CreativeAssistant/CreativeAssistant.apk;PRESIGNED
-product/etc/permissions/privapp-permissions-google-pearl.xml
-
-# Pixel AI
-product/priv-app/PixelAIPrebuilt/PixelAIPrebuilt.apk;PRESIGNED
-
 # Pixel Core Services
 product/priv-app/PrebuiltPixelCoreServices/PrebuiltPixelCoreServices.apk;PRESIGNED
 
 # Pixel play auto-install (PAI) stub app
 product/app/PlayAutoInstallConfig/PlayAutoInstallConfig.apk;PRESIGNED
-
-# Pixel System Services
-system_ext/app/PersistentBackgroundServices/PersistentBackgroundServices.apk;PRESIGNED
 
 # Pixel VIPs
 product/priv-app/RelationshipsPrebuilt-1/RelationshipsPrebuilt-1.apk;PRESIGNED

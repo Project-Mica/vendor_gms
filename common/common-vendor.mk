@@ -17,7 +17,6 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/permissions/com.google.android.odad.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.odad.xml \
     vendor/gms/common/proprietary/product/etc/permissions/com.google.omadm.trigger.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.omadm.trigger.xml \
     vendor/gms/common/proprietary/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml \
-    vendor/gms/common/proprietary/product/etc/permissions/privapp-permissions-google-pearl.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-pearl.xml \
     vendor/gms/common/proprietary/product/etc/permissions/split-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/split-permissions-google.xml \
     vendor/gms/common/proprietary/product/etc/preferred-apps/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/preferred-apps/google.xml \
     vendor/gms/common/proprietary/product/etc/security/fsverity/gms_fsverity_cert.der:$(TARGET_COPY_OUT_PRODUCT)/etc/security/fsverity/gms_fsverity_cert.der \
@@ -226,7 +225,6 @@ PRODUCT_PACKAGES += \
     AICorePrebuilt-aicore_20250130.00_RC01 \
     AndroidAutoStubPrebuilt \
     ConfigUpdater \
-    CreativeAssistant \
     DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02 \
     DevicePersonalizationPrebuiltPixel2024-bfinal_aiai_20250217.00_RC08 \
     FilesPrebuilt \
@@ -234,7 +232,6 @@ PRODUCT_PACKAGES += \
     GoogleRestorePrebuilt-v717308 \
     PartnerSetupPrebuilt \
     Phonesky \
-    PixelAIPrebuilt \
     PixelLiveWallpaperPrebuilt-26000013 \
     PrebuiltDeskClockGoogle_76006071 \
     PrebuiltGmsCoreVic_AdsDynamite \
@@ -266,7 +263,6 @@ PRODUCT_PACKAGES += \
     AccessibilityMenu \
     EmergencyInfoGoogleNoUi \
     Flipendo \
-    PersistentBackgroundServices \
     AvatarPickerGoogle \
     GoogleServicesFramework \
     NexusLauncherRelease \

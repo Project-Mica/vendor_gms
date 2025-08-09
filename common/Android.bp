@@ -422,19 +422,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "CreativeAssistant",
-	owner: "gms",
-	apk: "proprietary/product/priv-app/CreativeAssistant/CreativeAssistant.apk",
-	preprocessed: true,
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02.apk",
@@ -518,19 +505,6 @@ android_app_import {
 	owner: "gms",
 	apk: "proprietary/product/priv-app/Phonesky/Phonesky.apk",
 	overrides: ["messaging"],
-	preprocessed: true,
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "PixelAIPrebuilt",
-	owner: "gms",
-	apk: "proprietary/product/priv-app/PixelAIPrebuilt/PixelAIPrebuilt.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -937,18 +911,6 @@ android_app_import {
 	owner: "gms",
 	apk: "proprietary/system_ext/app/Flipendo/Flipendo.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "PersistentBackgroundServices",
-	owner: "gms",
-	apk: "proprietary/system_ext/app/PersistentBackgroundServices/PersistentBackgroundServices.apk",
-	preprocessed: true,
-	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
