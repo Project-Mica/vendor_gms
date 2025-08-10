@@ -43,9 +43,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.opa.eligible_device=true
 
-# GMS RRO overlay
+# Pixel
 PRODUCT_PACKAGES += \
-    GoogleSettingsOverlay
+    GoogleSettingsOverlay \
+    GoogleSystemUIOverlay
 
 # CarrierSettings overlay
 PRODUCT_PACKAGES += \
