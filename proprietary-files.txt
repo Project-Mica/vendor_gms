@@ -362,6 +362,8 @@ product/etc/sysconfig/pixel_experience_2023.xml
 product/etc/sysconfig/pixel_experience_2023_midyear.xml
 product/etc/sysconfig/pixel_experience_2024.xml
 product/etc/sysconfig/pixel_experience_2024_midyear.xml
+product/etc/sysconfig/pixel_experience_2025.xml
+product/etc/sysconfig/pixel_experience_2025_midyear.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2018-and-newer.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml
