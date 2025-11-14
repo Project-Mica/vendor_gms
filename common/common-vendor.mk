@@ -12,6 +12,9 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/default-permissions/default-permissions-com.google.android.apps.pixel.agent.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-com.google.android.apps.pixel.agent.xml \
     vendor/gms/common/proprietary/product/etc/default-permissions/default-permissions-safetyhub.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-safetyhub.xml \
     vendor/gms/common/proprietary/product/etc/default-permissions/default-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions.xml \
+    vendor/gms/common/proprietary/product/etc/default-permissions/default-permissions_customizationbundle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions_customizationbundle.xml \
+    vendor/gms/common/proprietary/product/etc/default-permissions/default-permissions_pixelweather.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions_pixelweather.xml \
+    vendor/gms/common/proprietary/product/etc/default-permissions/default-permissions_wallpapereffect.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions_wallpapereffect.xml \
     vendor/gms/common/proprietary/product/etc/permissions/com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.omadm.service.xml \
     vendor/gms/common/proprietary/product/etc/permissions/com.google.android.apps.setupwizard.searchselector.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.setupwizard.searchselector.xml \
     vendor/gms/common/proprietary/product/etc/permissions/com.google.android.odad.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.odad.xml \
@@ -22,8 +25,10 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/security/fsverity/gms_fsverity_cert.der:$(TARGET_COPY_OUT_PRODUCT)/etc/security/fsverity/gms_fsverity_cert.der \
     vendor/gms/common/proprietary/product/etc/security/fsverity/play_store_fsi_cert.der:$(TARGET_COPY_OUT_PRODUCT)/etc/security/fsverity/play_store_fsi_cert.der \
     vendor/gms/common/proprietary/product/etc/sysconfig/allowlist_com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.android.omadm.service.xml \
+    vendor/gms/common/proprietary/product/etc/sysconfig/ambient_data.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/ambient_data.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/contextual_search.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/contextual_search.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/game_service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/game_service.xml \
+    vendor/gms/common/proprietary/product/etc/sysconfig/gemini_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/gemini_experience.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/google-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-hiddenapi-package-whitelist.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/google-staged-installer-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-staged-installer-whitelist.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google.xml \
@@ -44,6 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/sysconfig/pixel_experience_2023_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2023_midyear.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/pixel_experience_2024.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2024.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/pixel_experience_2024_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2024_midyear.xml \
+    vendor/gms/common/proprietary/product/etc/sysconfig/pixel_experience_2025.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2025.xml \
+    vendor/gms/common/proprietary/product/etc/sysconfig/pixel_experience_2025_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2025_midyear.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/preinstalled-packages-product-pixel-2018-and-newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-pixel-2018-and-newer.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml \
@@ -54,6 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/media/audio/alarms/Bright_morning.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Bright_morning.ogg \
     vendor/gms/common/proprietary/product/media/audio/alarms/Cuckoo_clock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Cuckoo_clock.ogg \
     vendor/gms/common/proprietary/product/media/audio/alarms/Early_twilight.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Early_twilight.ogg \
+    vendor/gms/common/proprietary/product/media/audio/alarms/Fresh_morning.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Fresh_morning.ogg \
     vendor/gms/common/proprietary/product/media/audio/alarms/Fresh_start.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Fresh_start.ogg \
     vendor/gms/common/proprietary/product/media/audio/alarms/Full_of_wonder.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Full_of_wonder.ogg \
     vendor/gms/common/proprietary/product/media/audio/alarms/Gentle_breeze.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Gentle_breeze.ogg \
@@ -69,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/media/audio/notifications/End_note.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/End_note.ogg \
     vendor/gms/common/proprietary/product/media/audio/notifications/Eureka.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Eureka.ogg \
     vendor/gms/common/proprietary/product/media/audio/notifications/Gentle_gong.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Gentle_gong.ogg \
+    vendor/gms/common/proprietary/product/media/audio/notifications/Kernel.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Kernel.ogg \
     vendor/gms/common/proprietary/product/media/audio/notifications/Mallet.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Mallet.ogg \
     vendor/gms/common/proprietary/product/media/audio/notifications/Orders_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Orders_up.ogg \
     vendor/gms/common/proprietary/product/media/audio/notifications/Ping.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Ping.ogg \
@@ -90,6 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/media/audio/ringtones/Monkey_around.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Monkey_around.ogg \
     vendor/gms/common/proprietary/product/media/audio/ringtones/Schools_out.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Schools_out.ogg \
     vendor/gms/common/proprietary/product/media/audio/ringtones/The_big_adventure.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/The_big_adventure.ogg \
+    vendor/gms/common/proprietary/product/media/audio/ringtones/The_next_adventure.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/The_next_adventure.ogg \
     vendor/gms/common/proprietary/product/media/audio/ringtones/Your_new_adventure.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Your_new_adventure.ogg \
     vendor/gms/common/proprietary/product/media/audio/ringtones/Zen_too.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Zen_too.ogg \
     vendor/gms/common/proprietary/product/media/audio/ui/AttentionalHaptics.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/AttentionalHaptics.ogg \
@@ -198,10 +208,11 @@ PRODUCT_PACKAGES += \
     DocumentsUIGoogle \
     GoogleExtServices \
     TagGoogle \
-    CalculatorGooglePrebuilt_85005407 \
+    CalculatorGooglePrebuilt_85006267 \
     CalendarGooglePrebuilt \
     Chrome-Stub \
-    DevicePolicyPrebuilt-v10306480 \
+    CredentialManagerPrebuilt_credentialmanager.android_20250404.06_p0 \
+    DevicePolicyPrebuilt-v10334460 \
     GoogleContacts \
     GoogleTTS \
     LatinIMEGooglePrebuilt \
@@ -210,30 +221,32 @@ PRODUCT_PACKAGES += \
     ModuleMetadataGoogle \
     NgaResources \
     Photos \
-    PixelThemesStub2022_and_newer \
-    PixelWallpapers2024 \
+    PixelThemesStub2025_and_newer \
+    PixelWallpapers2025 \
     PlayAutoInstallConfig \
-    SoundAmplifierPrebuilt_v4.7.638126989 \
-    SoundPickerPrebuilt_32000122 \
+    SoundAmplifierPrebuilt_v4.8.758106410 \
+    SoundPickerPrebuilt_33000062 \
     SwitchAccessPrebuilt_1.16.0.726766860 \
     TrichromeLibrary-Stub \
-    WallpaperAIPrebuilt_10000342 \
-    WallpaperEmojiPrebuilt-v4504 \
+    WallpaperAIPrebuilt_10000372 \
+    WallpaperEmojiPrebuilt-foldable-wallpaper \
     WebViewGoogle-Stub \
-    arcore-1.42 \
+    arcore-1.48 \
     talkback \
     AICorePrebuilt-aicore_20250130.00_RC01 \
     AndroidAutoStubPrebuilt \
     ConfigUpdater \
+    CustomizationBundlePrebuilt \
     DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02 \
-    DevicePersonalizationPrebuiltPixel2024-bfinal_aiai_20250217.00_RC08 \
+    DevicePersonalizationPrebuiltPixel2025-playstore_aiai_20250306.00_RC10 \
     FilesPrebuilt \
+    GeminiShell_227 \
     GoogleOneTimeInitializer \
-    GoogleRestorePrebuilt-v717308 \
+    GoogleRestorePrebuilt-v793553 \
     PartnerSetupPrebuilt \
     Phonesky \
     PixelLiveWallpaperPrebuilt-26000013 \
-    PrebuiltDeskClockGoogle_76006071 \
+    PrebuiltDeskClockGoogle_76007351 \
     PrebuiltGmsCoreVic_AdsDynamite \
     PrebuiltGmsCoreVic_CronetDynamite \
     PrebuiltGmsCoreVic_DynamiteLoader \
@@ -248,25 +261,25 @@ PRODUCT_PACKAGES += \
     VisionBarcodePrebuilt \
     PrebuiltGmsCoreVic \
     PrebuiltPixelCoreServices \
-    RecorderPrebuilt_715214189 \
-    RelationshipsPrebuilt-1 \
+    RelationshipsPrebuilt-301 \
     SafetyHubPrebuilt \
     ScribePrebuilt_v8.2.717788270 \
     SearchSelectorPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
-    SetupWizardPrebuilt \
+    SetupWizardPrebuilt_bd3a \
     TurboPrebuilt \
     Velvet \
     WallpaperEffect \
-    WeatherPixelPrebuilt_10004303 \
+    WeatherPixelPrebuilt_10006113 \
     WellbeingPrebuilt \
     AccessibilityMenu \
     EmergencyInfoGoogleNoUi \
     Flipendo \
     AvatarPickerGoogle \
     GoogleServicesFramework \
+    MagicPortraitWallpapers \
     NexusLauncherRelease \
-    SetupWizardPixelPrebuilt \
+    SetupWizardPixelPrebuilt_bd3a \
     StorageManagerGoogle \
     SystemUIClocks-BigNum \
     SystemUIClocks-Calligraphy \
@@ -275,6 +288,7 @@ PRODUCT_PACKAGES += \
     SystemUIClocks-Inflate \
     SystemUIClocks-Metro \
     SystemUIClocks-NumOverlap \
+    SystemUIClocks-Weather \
     TurboAdapter \
     WallpaperPickerGoogleRelease
 
@@ -369,6 +383,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/digi_ro.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/digi_ro.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/digimobil_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/digimobil_es.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/dish5gsa_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/dish5gsa_us.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/dish_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/dish_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/dishatt_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/dishatt_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/dito_ph.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/dito_ph.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/dna_fi.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/dna_fi.pb \

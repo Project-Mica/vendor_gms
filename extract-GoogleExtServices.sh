@@ -63,7 +63,6 @@ fi
 cp "${TMPDIR}"/GoogleExtServices.apk "${out}"/proprietary/system/priv-app/GoogleExtServices/GoogleExtServices.apk
 cp "${TMPDIR}"/privapp_allowlist_com.google.android.ext.services.xml "${out}"/proprietary/system/etc/permissions/privapp_allowlist_com.google.android.ext.services.xml
 
-
 # Clear the temporary working directory
 rm -rf "${TMPDIR}"
 

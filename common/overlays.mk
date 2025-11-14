@@ -15,14 +15,13 @@ PRODUCT_PACKAGES += \
     PixelConfigOverlay2019Midyear \
     PixelConfigOverlay2021 \
     PixelConfigOverlayCommon \
-    PixelConnectivityOverlay2024 \
+    PixelConnectivityOverlay2025 \
     PixelContactsProvider \
     PixelDeviceDiagnostics \
     PixelDocumentsUIGoogleOverlay \
     Pixelframework-res \
     PixelSettingsGoogle \
     PixelSettingsProvider \
-    PixelSetupWizardOverlay2024 \
     PixelSystemUIGoogle \
     PixelTelecom \
     PixelTeleService \

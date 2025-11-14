@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from komodo-ota-bp2a.250605.031.a2-60eaa0ed
+# All unpinned blobs below are extracted from google/mustang/mustang:16/BD3A.251105.010.E1/14337626:user/release-keys
 
 # Accessibility Menu
 system_ext/app/AccessibilityMenu/AccessibilityMenu.apk;PRESIGNED
@@ -6,14 +6,11 @@ system_ext/app/AccessibilityMenu/AccessibilityMenu.apk;PRESIGNED
 # AICore
 product/priv-app/AICorePrebuilt-aicore_20250130.00_RC01/AICorePrebuilt-aicore_20250130.00_RC01.apk;PRESIGNED
 
-# Ai Wallpapers
-product/app/WallpaperAIPrebuilt_10000342/WallpaperAIPrebuilt_10000342.apk;PRESIGNED
-
 # AndroidAuto
 product/priv-app/AndroidAutoStubPrebuilt/AndroidAutoStubPrebuilt.apk;PRESIGNED
 
 # Arcore
-product/app/arcore-1.42/arcore-1.42.apk;PRESIGNED
+product/app/arcore-1.48/arcore-1.48.apk;PRESIGNED
 
 # Avatar Picker
 system_ext/priv-app/AvatarPickerGoogle/AvatarPickerGoogle.apk;OVERRIDES=AvatarPicker;PRESIGNED
@@ -28,20 +25,23 @@ product/app/WebViewGoogle/WebViewGoogle.apk.gz;PRESIGNED
 product/priv-app/ScribePrebuilt_v8.2.717788270/ScribePrebuilt_v8.2.717788270.apk;PRESIGNED
 
 # Calculator
-product/app/CalculatorGooglePrebuilt_85005407/CalculatorGooglePrebuilt_85005407.apk;OVERRIDES=ExactCalculator;PRESIGNED
+product/app/CalculatorGooglePrebuilt_85006267/CalculatorGooglePrebuilt_85006267.apk;PRESIGNED
 
 # Calendar
 product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk;OVERRIDES=Calendar2,Calendar,Etar;PRESIGNED
 
 # Clock
-product/priv-app/PrebuiltDeskClockGoogle_76006071/PrebuiltDeskClockGoogle_76006071.apk;OVERRIDES=DeskClock;PRESIGNED
+product/priv-app/PrebuiltDeskClockGoogle_76007351/PrebuiltDeskClockGoogle_76007351.apk;OVERRIDES=DeskClock;PRESIGNED
+
+# Credential manager
+product/app/CredentialManagerPrebuilt_credentialmanager.android_20250404.06_p0/CredentialManagerPrebuilt_credentialmanager.android_20250404.06_p0.apk;PRESIGNED
 
 # Device Personalization Services
-product/priv-app/DevicePersonalizationPrebuiltPixel2024-bfinal_aiai_20250217.00_RC08/DevicePersonalizationPrebuiltPixel2024-bfinal_aiai_20250217.00_RC08.apk;PRESIGNED
+product/priv-app/DevicePersonalizationPrebuiltPixel2025-playstore_aiai_20250306.00_RC10/DevicePersonalizationPrebuiltPixel2025-playstore_aiai_20250306.00_RC10.apk;PRESIGNED
 
 # ExtServices
-system/etc/permissions/privapp_allowlist_com.google.android.ext.services.xml|f97a3feef96930810d453e9eaab466ef10c4e918
-system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|34d8bea545367bcc156f496838b9fe9675419456
+system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|aa9a314dae03a8a672c5bab09e92c5cbe31cf1ea
+system/etc/permissions/privapp_allowlist_com.google.android.ext.services.xml|cff72cd3f779c862506e48150c3f51f63aed98e3
 
 # Files
 product/priv-app/FilesPrebuilt/FilesPrebuilt.apk;PRESIGNED
@@ -50,6 +50,10 @@ system_ext/priv-app/StorageManagerGoogle/StorageManagerGoogle.apk;OVERRIDES=Stor
 
 # Flipendo
 system_ext/app/Flipendo/Flipendo.apk
+
+# Gemini
+product/priv-app/GeminiShell_227/GeminiShell_227.apk;PRESIGNED
+product/etc/sysconfig/gemini_experience.xml
 
 # Google search
 product/priv-app/Velvet/Velvet.apk;OVERRIDES=QuickSearchBox;PRESIGNED
@@ -96,6 +100,7 @@ system_ext/priv-app/SystemUIClocks-Growth/SystemUIClocks-Growth.apk
 system_ext/priv-app/SystemUIClocks-Inflate/SystemUIClocks-Inflate.apk
 system_ext/priv-app/SystemUIClocks-Metro/SystemUIClocks-Metro.apk
 system_ext/priv-app/SystemUIClocks-NumOverlap/SystemUIClocks-NumOverlap.apk
+system_ext/priv-app/SystemUIClocks-Weather/SystemUIClocks-Weather.apk
 
 # Location
 product/app/LocationHistoryPrebuilt/LocationHistoryPrebuilt.apk;PRESIGNED
@@ -171,13 +176,13 @@ product/usr/srec/en-US/voice_match/MARBLE_speakerid.tflite
 product/usr/srec/en-US/voice_match/MARBLE_voice_filter.tflite
 
 # Overlays
-product/overlay/AccessibilityMenu__komodo__auto_generated_rro_product.apk:product/overlay/PixelAccessibilityMenu.apk
+product/overlay/AccessibilityMenu__mustang__auto_generated_rro_product.apk:product/overlay/PixelAccessibilityMenu.apk
 product/overlay/AvatarPickerPixelOverlay.apk
-product/overlay/BuiltInPrintService__komodo__auto_generated_rro_product.apk:product/overlay/PixelBuiltInPrintService.apk
+product/overlay/BuiltInPrintService__mustang__auto_generated_rro_product.apk:product/overlay/PixelBuiltInPrintService.apk
 product/overlay/CellBroadcastReceiverOverlay/CellBroadcastReceiverOverlay.apk:product/overlay/CellBroadcastReceiverOverlay.apk
 product/overlay/CellBroadcastServiceOverlay/CellBroadcastServiceOverlay.apk:product/overlay/CellBroadcastServiceOverlay.apk
-product/overlay/ContactsProvider__komodo__auto_generated_rro_product.apk:product/overlay/PixelContactsProvider.apk
-product/overlay/DeviceDiagnostics__komodo__auto_generated_rro_product.apk:product/overlay/PixelDeviceDiagnostics.apk
+product/overlay/ContactsProvider__mustang__auto_generated_rro_product.apk:product/overlay/PixelContactsProvider.apk
+product/overlay/DeviceDiagnostics__mustang__auto_generated_rro_product.apk:product/overlay/PixelDeviceDiagnostics.apk
 product/overlay/GoogleConfigOverlay.apk
 product/overlay/GoogleDeviceLockControllerOverlay.apk
 product/overlay/GoogleHealthConnectOverlay.apk
@@ -189,18 +194,16 @@ product/overlay/PixelConfigOverlay2019.apk
 product/overlay/PixelConfigOverlay2019Midyear.apk
 product/overlay/PixelConfigOverlay2021.apk
 product/overlay/PixelConfigOverlayCommon.apk
-product/overlay/PixelConnectivityOverlay2024.apk
 product/overlay/PixelDocumentsUIGoogleOverlay/PixelDocumentsUIGoogleOverlay.apk:product/overlay/PixelDocumentsUIGoogleOverlay.apk
-product/overlay/PixelSetupWizardOverlay2024.apk
 product/overlay/PixelTetheringOverlay2021.apk
-product/overlay/SettingsGoogle__komodo__auto_generated_rro_product.apk:product/overlay/PixelSettingsGoogle.apk
-product/overlay/SettingsProvider__komodo__auto_generated_rro_product.apk:product/overlay/PixelSettingsProvider.apk
+product/overlay/SettingsGoogle__mustang__auto_generated_rro_product.apk:product/overlay/PixelSettingsGoogle.apk
+product/overlay/SettingsProvider__mustang__auto_generated_rro_product.apk:product/overlay/PixelSettingsProvider.apk
 product/overlay/SystemUIGXOverlay.apk
-product/overlay/SystemUIGoogle__komodo__auto_generated_rro_product.apk:product/overlay/PixelSystemUIGoogle.apk
-product/overlay/TeleService__komodo__auto_generated_rro_product.apk:product/overlay/PixelTeleService.apk
-product/overlay/Telecom__komodo__auto_generated_rro_product.apk:product/overlay/PixelTelecom.apk
+product/overlay/SystemUIGoogle__mustang__auto_generated_rro_product.apk:product/overlay/PixelSystemUIGoogle.apk
+product/overlay/TeleService__mustang__auto_generated_rro_product.apk:product/overlay/PixelTeleService.apk
+product/overlay/Telecom__mustang__auto_generated_rro_product.apk:product/overlay/PixelTelecom.apk
 product/overlay/WildlifeSettingsVpnOverlay2022.apk
-product/overlay/framework-res__komodo__auto_generated_rro_product.apk:product/overlay/Pixelframework-res.apk
+product/overlay/framework-res__mustang__auto_generated_rro_product.apk:product/overlay/Pixelframework-res.apk
 
 # NgaResources
 product/app/NgaResources/NgaResources.apk;PRESIGNED
@@ -213,6 +216,9 @@ system/system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk;OVERRID
 product/etc/default-permissions/default-permissions-com.google.android.apps.pixel.agent.xml
 product/etc/default-permissions/default-permissions-safetyhub.xml
 product/etc/default-permissions/default-permissions.xml
+product/etc/default-permissions/default-permissions_pixelweather.xml
+product/etc/default-permissions/default-permissions_wallpapereffect.xml
+product/etc/default-permissions/default-permissions_customizationbundle.xml
 product/etc/permissions/com.android.omadm.service.xml
 product/etc/permissions/com.google.android.odad.xml
 product/etc/permissions/com.google.omadm.trigger.xml
@@ -234,6 +240,7 @@ product/media/audio/alarms/A_real_hoot.ogg
 product/media/audio/alarms/Bright_morning.ogg
 product/media/audio/alarms/Cuckoo_clock.ogg
 product/media/audio/alarms/Early_twilight.ogg
+product/media/audio/alarms/Fresh_morning.ogg
 product/media/audio/alarms/Fresh_start.ogg
 product/media/audio/alarms/Full_of_wonder.ogg
 product/media/audio/alarms/Gentle_breeze.ogg
@@ -249,6 +256,7 @@ product/media/audio/notifications/Duet.ogg
 product/media/audio/notifications/End_note.ogg
 product/media/audio/notifications/Eureka.ogg
 product/media/audio/notifications/Gentle_gong.ogg
+product/media/audio/notifications/Kernel.ogg
 product/media/audio/notifications/Mallet.ogg
 product/media/audio/notifications/Orders_up.ogg
 product/media/audio/notifications/Ping.ogg
@@ -270,6 +278,7 @@ product/media/audio/ringtones/Mash_up.ogg
 product/media/audio/ringtones/Monkey_around.ogg
 product/media/audio/ringtones/Schools_out.ogg
 product/media/audio/ringtones/The_big_adventure.ogg
+product/media/audio/ringtones/The_next_adventure.ogg
 product/media/audio/ringtones/Your_new_adventure.ogg
 product/media/audio/ringtones/Zen_too.ogg
 product/media/audio/ui/AttentionalHaptics.ogg
@@ -311,29 +320,30 @@ system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk
 product/priv-app/SearchSelectorPrebuilt/SearchSelectorPrebuilt.apk;PRESIGNED
 
 # Security
-product/app/DevicePolicyPrebuilt-v10306480/DevicePolicyPrebuilt-v10306480.apk;PRESIGNED
+product/app/DevicePolicyPrebuilt-v10334460/DevicePolicyPrebuilt-v10334460.apk;PRESIGNED
 product/etc/security/fsverity/gms_fsverity_cert.der
 product/etc/security/fsverity/play_store_fsi_cert.der
 
 # Setup
 product/etc/permissions/com.google.android.apps.setupwizard.searchselector.xml
 product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk;OVERRIDES=OneTimeInitializer;PRESIGNED
-product/priv-app/GoogleRestorePrebuilt-v717308/GoogleRestorePrebuilt-v717308.apk;PRESIGNED
+product/priv-app/GoogleRestorePrebuilt-v793553/GoogleRestorePrebuilt-v793553.apk;PRESIGNED
 product/priv-app/PartnerSetupPrebuilt/PartnerSetupPrebuilt.apk;PRESIGNED
-product/priv-app/SetupWizardPrebuilt/SetupWizardPrebuilt.apk;OVERRIDES=Provision;PRESIGNED
-system_ext/priv-app/SetupWizardPixelPrebuilt/SetupWizardPixelPrebuilt.apk;OVERRIDES=LineageSetupWizard;PRESIGNED
+product/priv-app/SetupWizardPrebuilt_bd3a/SetupWizardPrebuilt_bd3a.apk;OVERRIDES=Provision;PRESIGNED
+system_ext/priv-app/SetupWizardPixelPrebuilt_bd3a/SetupWizardPixelPrebuilt_bd3a.apk;OVERRIDES=LineageSetupWizard;PRESIGNED
 
 # Sound
-product/app/SoundAmplifierPrebuilt_v4.7.638126989/SoundAmplifierPrebuilt_v4.7.638126989.apk;PRESIGNED
-product/app/SoundPickerPrebuilt_32000122/SoundPickerPrebuilt_32000122.apk;PRESIGNED
+product/app/SoundAmplifierPrebuilt_v4.8.758106410/SoundAmplifierPrebuilt_v4.8.758106410.apk;PRESIGNED
+product/app/SoundPickerPrebuilt_33000062/SoundPickerPrebuilt_33000062.apk;PRESIGNED
 
 # Switch Access
 product/app/SwitchAccessPrebuilt_1.16.0.726766860/SwitchAccessPrebuilt_1.16.0.726766860.apk;PRESIGNED
 
 # Styles & Wallpapers
-product/app/PixelThemesStub2022_and_newer/PixelThemesStub2022_and_newer.apk
-product/app/PixelWallpapers2024/PixelWallpapers2024.apk;PRESIGNED
-product/app/WallpaperEmojiPrebuilt-v4504/WallpaperEmojiPrebuilt-v4504.apk;PRESIGNED
+product/app/PixelThemesStub2025_and_newer/PixelThemesStub2025_and_newer.apk
+product/app/PixelWallpapers2025/PixelWallpapers2025.apk;PRESIGNED
+product/app/WallpaperEmojiPrebuilt-foldable-wallpaper/WallpaperEmojiPrebuilt-foldable-wallpaper.apk;PRESIGNED
+product/app/WallpaperAIPrebuilt_10000372/WallpaperAIPrebuilt_10000372.apk;PRESIGNED
 product/priv-app/PixelLiveWallpaperPrebuilt-26000013/PixelLiveWallpaperPrebuilt-26000013.apk;PRESIGNED
 product/priv-app/WallpaperEffect/WallpaperEffect.apk;PRESIGNED
 system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk;OVERRIDES=ThemePicker,WallpaperPicker,WallpaperPicker2,WallpaperCropper;PRESIGNED
@@ -341,6 +351,7 @@ system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.ap
 # Sysconfig
 product/etc/preferred-apps/google.xml
 product/etc/sysconfig/allowlist_com.android.omadm.service.xml
+product/etc/sysconfig/ambient_data.xml
 product/etc/sysconfig/contextual_search.xml
 product/etc/sysconfig/game_service.xml
 product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
@@ -362,6 +373,8 @@ product/etc/sysconfig/pixel_experience_2023.xml
 product/etc/sysconfig/pixel_experience_2023_midyear.xml
 product/etc/sysconfig/pixel_experience_2024.xml
 product/etc/sysconfig/pixel_experience_2024_midyear.xml
+product/etc/sysconfig/pixel_experience_2025.xml
+product/etc/sysconfig/pixel_experience_2025_midyear.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2018-and-newer.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml
@@ -380,10 +393,9 @@ system_ext/priv-app/TurboAdapter/TurboAdapter.apk
 # Voice
 product/app/GoogleTTS/GoogleTTS.apk;OVERRIDES=PicoTts;PRESIGNED
 product/app/talkback/talkback.apk;PRESIGNED
-product/priv-app/RecorderPrebuilt_715214189/RecorderPrebuilt_715214189.apk;OVERRIDES=Recorder;PRESIGNED
 
 # Weather
-product/priv-app/WeatherPixelPrebuilt_10004303/WeatherPixelPrebuilt_10004303.apk;PRESIGNED
+product/priv-app/WeatherPixelPrebuilt_10006113/WeatherPixelPrebuilt_10006113.apk;PRESIGNED
 
 # Wellbeing
 product/priv-app/WellbeingPrebuilt/WellbeingPrebuilt.apk;PRESIGNED
@@ -395,4 +407,8 @@ product/priv-app/PrebuiltPixelCoreServices/PrebuiltPixelCoreServices.apk;PRESIGN
 product/app/PlayAutoInstallConfig/PlayAutoInstallConfig.apk;PRESIGNED
 
 # Pixel VIPs
-product/priv-app/RelationshipsPrebuilt-1/RelationshipsPrebuilt-1.apk;PRESIGNED
+product/priv-app/RelationshipsPrebuilt-301/RelationshipsPrebuilt-301.apk;PRESIGNED
+
+# WIP
+product/priv-app/CustomizationBundlePrebuilt/CustomizationBundlePrebuilt.apk;PRESIGNED
+system_ext/priv-app/MagicPortraitWallpapers/MagicPortraitWallpapers.apk;PRESIGNED

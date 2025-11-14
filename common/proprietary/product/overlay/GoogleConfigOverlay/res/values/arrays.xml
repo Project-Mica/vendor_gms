@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="config_accessComputerControlKnownSigners">
+        <item>1975B2F17177BC89A5DFF31F9E64A6CAE281A53DC1D1D59B1D147FE1C82AFA00</item>
+        <item>7075F275C3B82619A37B1FA393B8F9D793F0B3F55148C6251AA959C340BB74B4</item>
+        <item>103938EE4537E59E8EE792F654504FB8346FC6B346D0BBC4415FC339FCFC8EC1</item>
+    </string-array>
     <string-array name="config_allowedSecureInstantAppSettings">
         <item>advertising_id</item>
         <item>limit_ad_tracking</item>
+    </string-array>
+    <string-array name="config_appFunctionsDeviceSettingsPackages">
+        <item>com.android.settings</item>
+        <item>com.google.android.permission</item>
+        <item>com.google.android.apps.wellbeing</item>
     </string-array>
     <string-array name="config_backupHealthConnectDataAndSettingsKnownSigners">
         <item>4F59009D33D5B8C60E4B14623A771EBA08E5C02D2F0A124DE8D184AA9DAF00B4</item>

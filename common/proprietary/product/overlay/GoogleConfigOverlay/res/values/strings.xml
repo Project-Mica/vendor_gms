@@ -53,6 +53,8 @@
     <string name="harmful_app_warning_title">Play Protect warning</string>
     <string name="identity_check_settings_action">com.google.android.gms.personalsafety.settings.IDENTITY_CHECK_SWITCH</string>
     <string name="identity_check_settings_package_name">com.google.android.gms</string>
+    <string name="proximity_provider_service_class_name">com.google.android.crossdeviceaccessservice.primary.proximityprovider.service.ProximityProviderService</string>
+    <string name="proximity_provider_service_package_name">com.google.android.crossdeviceaccessservice</string>
     <string name="safety_protection_display_text">&lt;font face=\"google-sans\"&gt;Protected by &lt;/font&gt;&lt;font face=\"google-sans-medium\"&gt;Android&lt;/font&gt;</string>
     <string name="scCellularNetworkSecurityLearnMore">https://support.google.com/android?p=cellular_security</string>
     <string name="vendor_required_attestation_revocation_list_url">https://android.googleapis.com/attestation/status</string>

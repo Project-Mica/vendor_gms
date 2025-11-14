@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from komodo-ota-bp1a.250305.020-20c1d368
+# All unpinned blobs below are extracted from google/mustang/mustang:16/BD3A.251105.010.E1/14337626:user/release-keys
 
 # Dialer
 product/etc/permissions/com.google.android.dialer.support.xml
@@ -99,6 +99,7 @@ product/etc/CarrierSettings/digi_pt.pb
 product/etc/CarrierSettings/digi_ro.pb
 product/etc/CarrierSettings/dish5gsa_us.pb
 product/etc/CarrierSettings/dishatt_us.pb
+product/etc/CarrierSettings/dish_us.pb
 product/etc/CarrierSettings/dito_ph.pb
 product/etc/CarrierSettings/dna_fi.pb
 product/etc/CarrierSettings/docomo_jp.pb
@@ -475,6 +476,6 @@ product/etc/CarrierSettings/ztar_us.pb
 # Carrier apps
 product/priv-app/CarrierLocation/CarrierLocation.apk
 product/priv-app/CarrierMetrics/CarrierMetrics.apk
-product/priv-app/CarrierSettings_signed_53.0.733201674/CarrierSettings_signed_53.0.733201674.apk:product/priv-app/CarrierSettings/CarrierSettings.apk;OVERRIDES=CarrierConfig;PRESIGNED
+product/priv-app/CarrierSettings_signed_55.0.755436886/CarrierSettings_signed_55.0.755436886.apk:product/priv-app/CarrierSettings/CarrierSettings.apk;OVERRIDES=CarrierConfig;PRESIGNED
 product/priv-app/CarrierWifi/CarrierWifi.apk
 product/priv-app/WfcActivation/WfcActivation.apk
