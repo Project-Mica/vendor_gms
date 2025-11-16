@@ -277,7 +277,6 @@ PRODUCT_PACKAGES += \
     Flipendo \
     AvatarPickerGoogle \
     GoogleServicesFramework \
-    MagicPortraitWallpapers \
     NexusLauncherRelease \
     SetupWizardPixelPrebuilt_bd3a \
     StorageManagerGoogle \
