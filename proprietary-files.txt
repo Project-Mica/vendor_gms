@@ -100,7 +100,7 @@ system_ext/priv-app/SystemUIClocks-Growth/SystemUIClocks-Growth.apk
 system_ext/priv-app/SystemUIClocks-Inflate/SystemUIClocks-Inflate.apk
 system_ext/priv-app/SystemUIClocks-Metro/SystemUIClocks-Metro.apk
 system_ext/priv-app/SystemUIClocks-NumOverlap/SystemUIClocks-NumOverlap.apk
-system_ext/priv-app/SystemUIClocks-Weather/SystemUIClocks-Weather.apk
+#system_ext/priv-app/SystemUIClocks-Weather/SystemUIClocks-Weather.apk
 
 # Location
 product/app/LocationHistoryPrebuilt/LocationHistoryPrebuilt.apk;PRESIGNED
