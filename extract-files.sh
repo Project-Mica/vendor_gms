@@ -104,6 +104,7 @@ sed -i "s|# All unpinned files are extracted from.*|# All unpinned files are ext
 
 # Update google extension services
 source "${MY_DIR}/extract-GoogleExtServices.sh"
+source "${MY_DIR}/extract-GmsCore.sh" "pixel-dump"
 
 "${MY_DIR}/setup-makefiles.sh"
 

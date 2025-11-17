@@ -10,7 +10,7 @@ echo "[*] Extracting..."
 7z x "dump.7z" -o"pixel-dump" >/dev/null
 
 echo "[*] Running extract-utils"
-bash extract-files.sh "pixel-dump"
+bash extract-files.sh pixel-dump
 
 echo "[*] Cleaning up..."
 rm "dump.7z"

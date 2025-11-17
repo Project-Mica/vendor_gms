@@ -61,19 +61,6 @@ product/priv-app/Velvet/Velvet.apk;OVERRIDES=QuickSearchBox;PRESIGNED
 # Google Play
 product/priv-app/ConfigUpdater/ConfigUpdater.apk;PRESIGNED
 product/priv-app/Phonesky/Phonesky.apk;OVERRIDES=messaging;PRESIGNED
-product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_AdsDynamite/PrebuiltGmsCoreVic_AdsDynamite.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_CronetDynamite/PrebuiltGmsCoreVic_CronetDynamite.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_DynamiteLoader/PrebuiltGmsCoreVic_DynamiteLoader.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_DynamiteModulesA/PrebuiltGmsCoreVic_DynamiteModulesA.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_DynamiteModulesC/PrebuiltGmsCoreVic_DynamiteModulesC.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_GoogleCertificates/PrebuiltGmsCoreVic_GoogleCertificates.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_MapsDynamite/PrebuiltGmsCoreVic_MapsDynamite.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreVic_MeasurementDynamite/PrebuiltGmsCoreVic_MeasurementDynamite.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCore/m/independent/AndroidPlatformServices/AndroidPlatformServices.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCore/m/optional/MlkitBarcodeUIPrebuilt/MlkitBarcodeUIPrebuilt.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCore/m/optional/TfliteDynamitePrebuilt/TfliteDynamitePrebuilt.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCore/m/optional/VisionBarcodePrebuilt/VisionBarcodePrebuilt.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCoreVic/PrebuiltGmsCoreVic.apk;OVERRIDES=StatementService;PRESIGNED
 system/app/GoogleExtShared/GoogleExtShared.apk;OVERRIDES=ExtShared;PRESIGNED
 system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk;PRESIGNED
 

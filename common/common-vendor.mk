@@ -247,19 +247,6 @@ PRODUCT_PACKAGES += \
     Phonesky \
     PixelLiveWallpaperPrebuilt-26000013 \
     PrebuiltDeskClockGoogle_76007351 \
-    PrebuiltGmsCoreVic_AdsDynamite \
-    PrebuiltGmsCoreVic_CronetDynamite \
-    PrebuiltGmsCoreVic_DynamiteLoader \
-    PrebuiltGmsCoreVic_DynamiteModulesA \
-    PrebuiltGmsCoreVic_DynamiteModulesC \
-    PrebuiltGmsCoreVic_GoogleCertificates \
-    PrebuiltGmsCoreVic_MapsDynamite \
-    PrebuiltGmsCoreVic_MeasurementDynamite \
-    AndroidPlatformServices \
-    MlkitBarcodeUIPrebuilt \
-    TfliteDynamitePrebuilt \
-    VisionBarcodePrebuilt \
-    PrebuiltGmsCoreVic \
     PrebuiltPixelCoreServices \
     RelationshipsPrebuilt-301 \
     SafetyHubPrebuilt \

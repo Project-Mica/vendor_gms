@@ -1,4 +1,6 @@
 common/proprietary/system/*
 common/proprietary/system_ext/*
 common/proprietary/product/*
+GmsCore/*
+!GmsCore/*.mk
 !common/proprietary/product/overlay/

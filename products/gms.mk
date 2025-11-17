@@ -88,4 +88,20 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     PixelSetupWizardOverlayExpressive
 
+# GmsCore
+PRODUCT_PACKAGES += \
+    PrebuiltGmsCoreVic \
+    PrebuiltGmsCoreVic_AdsDynamite \
+    PrebuiltGmsCoreVic_CronetDynamite \
+    PrebuiltGmsCoreVic_DynamiteLoader \
+    PrebuiltGmsCoreVic_DynamiteModulesA \
+    PrebuiltGmsCoreVic_DynamiteModulesC \
+    PrebuiltGmsCoreVic_GoogleCertificates \
+    PrebuiltGmsCoreVic_MapsDynamite \
+    PrebuiltGmsCoreVic_MeasurementDynamite \
+    AndroidPlatformServices \
+    MlkitBarcodeUIPrebuilt \
+    TfliteDynamitePrebuilt \
+    VisionBarcodePrebuilt
+
 $(call inherit-product, vendor/gms/common/common-vendor.mk)
