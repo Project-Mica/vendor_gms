@@ -738,6 +738,7 @@ android_app_import {
 	name: "PrebuiltGmsCoreVic",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/PrebuiltGmsCoreVic/PrebuiltGmsCoreVic.apk",
+	overrides: ["StatementService"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {

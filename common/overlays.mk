@@ -15,7 +15,6 @@ PRODUCT_PACKAGES += \
     PixelConfigOverlay2019Midyear \
     PixelConfigOverlay2021 \
     PixelConfigOverlayCommon \
-    PixelConnectivityOverlay2025 \
     PixelContactsProvider \
     PixelDeviceDiagnostics \
     PixelDocumentsUIGoogleOverlay \

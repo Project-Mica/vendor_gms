@@ -73,7 +73,7 @@ product/priv-app/PrebuiltGmsCore/m/independent/AndroidPlatformServices/AndroidPl
 product/priv-app/PrebuiltGmsCore/m/optional/MlkitBarcodeUIPrebuilt/MlkitBarcodeUIPrebuilt.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/m/optional/TfliteDynamitePrebuilt/TfliteDynamitePrebuilt.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/m/optional/VisionBarcodePrebuilt/VisionBarcodePrebuilt.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCoreVic/PrebuiltGmsCoreVic.apk;PRESIGNED
+product/priv-app/PrebuiltGmsCoreVic/PrebuiltGmsCoreVic.apk;OVERRIDES=StatementService;PRESIGNED
 system/app/GoogleExtShared/GoogleExtShared.apk;OVERRIDES=ExtShared;PRESIGNED
 system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk;PRESIGNED
 
