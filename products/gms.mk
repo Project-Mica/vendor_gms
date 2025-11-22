@@ -88,4 +88,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     PixelSetupWizardOverlayExpressive
 
+# Tensoeflow
+PRODUCT_PACKAGES += \
+    libtensorflowlite_jni \
+    MagicPortraitSymLink
+
 $(call inherit-product, vendor/gms/common/common-vendor.mk)
