@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-PRODUCT_BRAND ?= PixysOS
+PRODUCT_BRAND ?= MicaOS
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
