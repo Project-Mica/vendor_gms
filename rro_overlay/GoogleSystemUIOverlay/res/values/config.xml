@@ -17,6 +17,7 @@
 */
 -->
 <resources>
+    <bool name="long_press_keyguard_customize_lockscreen_enabled">true</bool>
     <string name="config_wallpaperPickerPackage">com.google.android.apps.wallpaper</string>
     <string name="config_preferredEmergencySosPackage">com.google.android.apps.safetyhub</string>
    <string-array name="config_quickSettingsHearingDevicesRelatedToolName">
