@@ -84,10 +84,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.theme=glif_expressive \
     setupwizard.feature.enable_gil=true
 
-# SetupWizard overlay
-PRODUCT_PACKAGES += \
-    PixelSetupWizardOverlayExpressive
-
 # Tensoeflow
 PRODUCT_PACKAGES += \
     libtensorflowlite_jni \
