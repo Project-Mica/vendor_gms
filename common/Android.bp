@@ -297,9 +297,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SoundPickerPrebuilt_33000062",
+	name: "SoundPickerPrebuilt_33000242",
 	owner: "gms",
-	apk: "proprietary/product/app/SoundPickerPrebuilt_33000062/SoundPickerPrebuilt_33000062.apk",
+	apk: "proprietary/product/app/SoundPickerPrebuilt_33000242/SoundPickerPrebuilt_33000242.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -512,9 +512,22 @@ android_app_import {
 }
 
 android_app_import {
-	name: "GoogleRestorePrebuilt-v793553",
+	name: "GoogleRestorePrebuilt-v842048",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/GoogleRestorePrebuilt-v793553/GoogleRestorePrebuilt-v793553.apk",
+	apk: "proprietary/product/priv-app/GoogleRestorePrebuilt-v842048/GoogleRestorePrebuilt-v842048.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "HealthIntelligencePrebuilt-1762",
+	owner: "gms",
+	apk: "proprietary/product/priv-app/HealthIntelligencePrebuilt-1762/HealthIntelligencePrebuilt-1762.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -698,7 +711,7 @@ android_app_import {
 android_app_import {
 	name: "MlkitBarcodeUIPrebuilt",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/m/optional/MlkitBarcodeUIPrebuilt/MlkitBarcodeUIPrebuilt.apk",
+	apk: "proprietary/product/priv-app/PrebuiltGmsCore/m/optional/MlkitBarcodeUIPrebuilt.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -711,7 +724,7 @@ android_app_import {
 android_app_import {
 	name: "TfliteDynamitePrebuilt",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/m/optional/TfliteDynamitePrebuilt/TfliteDynamitePrebuilt.apk",
+	apk: "proprietary/product/priv-app/PrebuiltGmsCore/m/optional/TfliteDynamitePrebuilt.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -724,7 +737,7 @@ android_app_import {
 android_app_import {
 	name: "VisionBarcodePrebuilt",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/m/optional/VisionBarcodePrebuilt/VisionBarcodePrebuilt.apk",
+	apk: "proprietary/product/priv-app/PrebuiltGmsCore/m/optional/VisionBarcodePrebuilt.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -789,9 +802,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ScribePrebuilt_v8.2.717788270",
+	name: "ScribePrebuilt_v8.4.773573318",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/ScribePrebuilt_v8.2.717788270/ScribePrebuilt_v8.2.717788270.apk",
+	apk: "proprietary/product/priv-app/ScribePrebuilt_v8.4.773573318/ScribePrebuilt_v8.4.773573318.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -828,10 +841,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SetupWizardPrebuilt_bd3a",
+	name: "SetupWizardPrebuilt_v811313066",
 	owner: "gms",
-	apk: "proprietary/product/priv-app/SetupWizardPrebuilt_bd3a/SetupWizardPrebuilt_bd3a.apk",
-	overrides: ["Provision"],
+	apk: "proprietary/product/priv-app/SetupWizardPrebuilt_v811313066/SetupWizardPrebuilt_v811313066.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -996,9 +1008,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SetupWizardPixelPrebuilt_bd3a",
+	name: "SetupWizardPixelPrebuilt_v802960446",
 	owner: "gms",
-	apk: "proprietary/system_ext/priv-app/SetupWizardPixelPrebuilt_bd3a/SetupWizardPixelPrebuilt_bd3a.apk",
+	apk: "proprietary/system_ext/priv-app/SetupWizardPixelPrebuilt_v802960446/SetupWizardPixelPrebuilt_v802960446.apk",
 	overrides: ["LineageSetupWizard"],
 	preprocessed: true,
 	presigned: true,
@@ -1039,18 +1051,6 @@ android_app_import {
 	name: "SystemUIClocks-Calligraphy",
 	owner: "gms",
 	apk: "proprietary/system_ext/priv-app/SystemUIClocks-Calligraphy/SystemUIClocks-Calligraphy.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "SystemUIClocks-Flex",
-	owner: "gms",
-	apk: "proprietary/system_ext/priv-app/SystemUIClocks-Flex/SystemUIClocks-Flex.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,

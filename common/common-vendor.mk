@@ -225,7 +225,7 @@ PRODUCT_PACKAGES += \
     PixelWallpapers2025 \
     PlayAutoInstallConfig \
     SoundAmplifierPrebuilt_v4.8.758106410 \
-    SoundPickerPrebuilt_33000062 \
+    SoundPickerPrebuilt_33000242 \
     SwitchAccessPrebuilt_1.16.0.726766860 \
     TrichromeLibrary-Stub \
     WallpaperAIPrebuilt_10000372 \
@@ -242,7 +242,8 @@ PRODUCT_PACKAGES += \
     FilesPrebuilt \
     GeminiShell_227 \
     GoogleOneTimeInitializer \
-    GoogleRestorePrebuilt-v793553 \
+    GoogleRestorePrebuilt-v842048 \
+    HealthIntelligencePrebuilt-1762 \
     PartnerSetupPrebuilt \
     Phonesky \
     PixelLiveWallpaperPrebuilt-26000013 \
@@ -263,10 +264,10 @@ PRODUCT_PACKAGES += \
     PrebuiltPixelCoreServices \
     RelationshipsPrebuilt-301 \
     SafetyHubPrebuilt \
-    ScribePrebuilt_v8.2.717788270 \
+    ScribePrebuilt_v8.4.773573318 \
     SearchSelectorPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
-    SetupWizardPrebuilt_bd3a \
+    SetupWizardPrebuilt_v811313066 \
     TurboPrebuilt \
     Velvet \
     WallpaperEffect \
@@ -279,11 +280,10 @@ PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     MagicPortraitWallpapers \
     NexusLauncherRelease \
-    SetupWizardPixelPrebuilt_bd3a \
+    SetupWizardPixelPrebuilt_v802960446 \
     StorageManagerGoogle \
     SystemUIClocks-BigNum \
     SystemUIClocks-Calligraphy \
-    SystemUIClocks-Flex \
     SystemUIClocks-Growth \
     SystemUIClocks-Inflate \
     SystemUIClocks-Metro \
@@ -302,12 +302,14 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/a1_bg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1_bg.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/a1_hr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1_hr.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/a1_mk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1_mk.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/a1_rs.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1_rs.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/a1_si.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1_si.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/a1mpn_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1mpn_at.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/ahamo_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ahamo_jp.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/airbus_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/airbus_de.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/airbus_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/airbus_fr.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/airtel_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/airtel_in.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/airtel_lk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/airtel_lk.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/ais_th.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ais_th.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/alcom_fi.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/alcom_fi.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/alestra_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/alestra_mx.pb \
@@ -318,6 +320,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/antel_uy.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/antel_uy.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/appalachian_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/appalachian_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/apt_tw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/apt_tw.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/apua_ag.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/apua_ag.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/asda_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/asda_gb.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/assurance_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/assurance_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/astca_as.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/astca_as.pb \
@@ -347,6 +350,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/btb_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/btb_gb.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/btc_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/btc_gb.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/cablemovil_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cablemovil_es.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/cablenet_cy.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cablenet_cy.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/carolinawest_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/carolinawest_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/carrier_list.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/carrier_list.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/celcom_my.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/celcom_my.pb \
@@ -358,11 +362,12 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/chatr_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/chatr_ca.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/chinamobile_hk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/chinamobile_hk.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/cht_tw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cht_tw.pb \
-    vendor/gms/common/proprietary/product/etc/CarrierSettings/cityfone_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cityfone_ca.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/claro_ar.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/claro_ar.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/claro_br.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/claro_br.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/claro_cl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/claro_cl.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/claro_co.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/claro_co.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/claro_pr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/claro_pr.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/cogeco_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cogeco_ca.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/commonmvnxatt_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/commonmvnxatt_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/congstar_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/congstar_de.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/consumercellularatt_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/consumercellularatt_us.pb \
@@ -375,8 +380,13 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/cricket_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cricket_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/cspire_nl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cspire_nl.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/cspire_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cspire_us.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/ct_mo.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ct_mo.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/ctm_mo.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ctm_mo.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/cytamobile_cy.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cytamobile_cy.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/default.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/default.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/dialog_lk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/dialog_lk.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/digi_hu.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/digi_hu.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/digi_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/digi_it.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/digi_my.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/digi_my.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/digi_pt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/digi_pt.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/digi_ro.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/digi_ro.pb \
@@ -395,9 +405,8 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/ee_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ee_gb.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/eeyoumobility_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/eeyoumobility_ca.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/eir_ie.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/eir_ie.pb \
-    vendor/gms/common/proprietary/product/etc/CarrierSettings/elisa1_fi.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/elisa1_fi.pb \
-    vendor/gms/common/proprietary/product/etc/CarrierSettings/elisa2_fi.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/elisa2_fi.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/elisa_ee.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/elisa_ee.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/elisa_fi.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/elisa_fi.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/enetworks_gy.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/enetworks_gy.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/enreach_nl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/enreach_nl.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/entel_cl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/entel_cl.pb \
@@ -432,15 +441,19 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/gibtel_gi.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/gibtel_gi.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/giffgaff_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/giffgaff_gb.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/giga_sg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/giga_sg.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/gigs_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/gigs_gb.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/globe_ph.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/globe_ph.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/gomobile_mt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/gomobile_mt.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/google5glab_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/google5glab_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/grameenphone_bd.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/grameenphone_bd.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/gta_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/gta_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/guuk_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/guuk_es.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/h3_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_at.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/h3_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_gb.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/h3_hk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_hk.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/h3_ie.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_ie.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/h3_lk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_lk.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/h3_mo.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_mo.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/h3_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_se.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/h3g27202_ie.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3g27202_ie.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/halebop_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/halebop_se.pb \
@@ -448,7 +461,6 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/help_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/help_at.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/homobile_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/homobile_it.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/hotmobile_il.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/hotmobile_il.pb \
-    vendor/gms/common/proprietary/product/etc/CarrierSettings/humane_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/humane_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/ice_no.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ice_no.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/idea_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/idea_in.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/idmobile_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/idmobile_gb.pb \
@@ -469,10 +481,14 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/kena_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/kena_it.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/koodo_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/koodo_ca.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/kpn_nl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/kpn_nl.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/kt_kr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/kt_kr.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/kyivstar_ua.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/kyivstar_ua.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/lebara_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lebara_de.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/lebara_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lebara_es.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/lebara_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lebara_fr.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/lebara_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lebara_gb.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/lebara_nl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lebara_nl.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/lguplus_kr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lguplus_kr.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/liberty_pr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/liberty_pr.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/lifecell_ua.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lifecell_ua.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/linemo_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/linemo_jp.pb \
@@ -483,6 +499,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/lum_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lum_ca.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/lyca_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lyca_es.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/lyca_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lyca_us.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/lycamobile_dk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lycamobile_dk.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/lycamobile_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lycamobile_gb.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/lycamobile_pt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lycamobile_pt.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/lycamobile_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lycamobile_se.pb \
@@ -500,13 +517,19 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/mettel_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mettel_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/mobifone_vn.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mobifone_vn.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/mobily_sa.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mobily_sa.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/moldcell_md.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/moldcell_md.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/monacotelecom_mc.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/monacotelecom_mc.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/movistar_ar.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/movistar_ar.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/movistar_cl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/movistar_cl.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/movistar_co.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/movistar_co.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/movistar_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/movistar_es.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/movistar_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/movistar_mx.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/mtel_me.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mtel_me.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/mtn_gh.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mtn_gh.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/mtn_ng.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mtn_ng.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/mucho_ch.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mucho_ch.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/mvnoconnect_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mvnoconnect_us.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/ncell_np.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ncell_np.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/nema_fo.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/nema_fo.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/netcomgroup_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/netcomgroup_fr.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/newww_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/newww_mx.pb \
@@ -524,22 +547,30 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/o2prepaid_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/o2prepaid_de.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/o2prepaid_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/o2prepaid_gb.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/omantel_om.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/omantel_om.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/one_al.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/one_al.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/one_me.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/one_me.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/onecall_no.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/onecall_no.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/only_yt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/only_yt.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/ooredoo_kw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ooredoo_kw.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/ooredoo_mv.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ooredoo_mv.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/ooredoo_qa.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ooredoo_qa.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/optimera_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/optimera_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/optus_au.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/optus_au.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/orange_be.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_be.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/orange_eg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_eg.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/orange_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_es.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/orange_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_fr.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/orange_gp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_gp.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/orange_lu.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_lu.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/orange_md.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_md.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/orange_ml.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_ml.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/orange_pl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_pl.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/orange_re.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_re.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/orange_ro.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_ro.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/orange_sk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_sk.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/orange_sn.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_sn.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/orange_tn.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_tn.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/orangentn_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orangentn_fr.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/others.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/others.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/oxio_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/oxio_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/paradisemobile_bm.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/paradisemobile_bm.pb \
@@ -555,6 +586,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/povo5gsa_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/povo5gsa_jp.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/povo_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/povo_jp.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/proximus_be.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/proximus_be.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/ptvtelecom_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ptvtelecom_es.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/publicmobile_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/publicmobile_ca.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/pwg_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/pwg_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/qlink_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/qlink_us.pb \
@@ -576,6 +608,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/salt_ch.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/salt_ch.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/salt_li.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/salt_li.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/sasktel_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sasktel_ca.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/setar_aw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/setar_aw.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/sfr_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sfr_fr.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/shaw_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/shaw_ca.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/simba_sg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/simba_sg.pb \
@@ -589,6 +622,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/sky_ie.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sky_ie.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/sky_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sky_mx.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/skylo_zz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/skylo_zz.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/slt_lk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/slt_lk.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/smart_ph.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/smart_ph.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/smartfren_id.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/smartfren_id.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/smartless_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/smartless_us.pb \
@@ -620,6 +654,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/swisscom_ch.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/swisscom_ch.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/swisscom_li.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/swisscom_li.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/swisscommvno_ch.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/swisscommvno_ch.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/t2_si.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/t2_si.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/talkmobile_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/talkmobile_gb.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/tango_lu.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tango_lu.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/tango_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tango_us.pb \
@@ -636,6 +671,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/tele2_lv.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tele2_lv.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/tele2_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tele2_se.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/telecable2_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telecable2_es.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/telecom_ar.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telecom_ar.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/telekom_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telekom_de.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/telekom_gr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telekom_gr.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/telekom_hr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telekom_hr.pb \
@@ -644,6 +680,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/telekom_mk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telekom_mk.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/telekom_pl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telekom_pl.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/telekom_ro.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telekom_ro.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/telekom_rs.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telekom_rs.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/telekom_si.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telekom_si.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/telekom_sk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telekom_sk.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/telemach_hr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telemach_hr.pb \
@@ -664,8 +701,10 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/telstra_au.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telstra_au.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/telus_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telus_ca.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/tesco_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tesco_gb.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/test001_amarisoft.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/test001_amarisoft.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/test001_zz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/test001_zz.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/three_dk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/three_dk.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/thumbcellular_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/thumbcellular_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/tigo_co.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tigo_co.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/tim_br.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tim_br.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/tim_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tim_it.pb \
@@ -679,6 +718,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/tracfoneatt_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tracfoneatt_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/tracfonetmo_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tracfonetmo_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/tracfoneverizon_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tracfoneverizon_us.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/transatel_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/transatel_fr.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/truemove_th.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/truemove_th.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/truphone_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/truphone_us.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/truphone_zz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/truphone_zz.pb \
@@ -719,6 +759,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/viti_pf.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/viti_pf.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/vivacom_bg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vivacom_bg.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/vivo_br.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vivo_br.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/vodafone_al.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_al.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/vodafone_au.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_au.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/vodafone_cz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_cz.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/vodafone_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_de.pb \
@@ -737,6 +778,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/vodafone_qa.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_qa.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/vodafone_ro.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_ro.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/vodafone_tr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_tr.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/vodafonelab_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafonelab_de.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/walmart_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/walmart_mx.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/webbing_hk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/webbing_hk.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/wim_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/wim_mx.pb \
@@ -749,6 +791,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/yesss_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/yesss_at.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/yettel_bg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/yettel_bg.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/yettel_hu.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/yettel_hu.pb \
+    vendor/gms/common/proprietary/product/etc/CarrierSettings/yettel_rs.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/yettel_rs.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/yoigo_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/yoigo_es.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/yomobile_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/yomobile_mx.pb \
     vendor/gms/common/proprietary/product/etc/CarrierSettings/zain_bh.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/zain_bh.pb \
