@@ -21,6 +21,7 @@ PRODUCT_PACKAGES += \
     Pixelframework-res \
     PixelSettingsGoogle \
     PixelSettingsProvider \
+    PixelSetupWizardOverlayExpressive \
     PixelSystemUIGoogle \
     PixelTelecom \
     PixelTeleService \

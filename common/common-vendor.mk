@@ -225,7 +225,7 @@ PRODUCT_PACKAGES += \
     PixelWallpapers2025 \
     PlayAutoInstallConfig \
     SoundAmplifierPrebuilt_v4.8.758106410 \
-    SoundPickerPrebuilt_33000062 \
+    SoundPickerPrebuilt_33000242 \
     SwitchAccessPrebuilt_1.16.0.726766860 \
     TrichromeLibrary-Stub \
     WallpaperAIPrebuilt_10000372 \
@@ -242,7 +242,8 @@ PRODUCT_PACKAGES += \
     FilesPrebuilt \
     GeminiShell_227 \
     GoogleOneTimeInitializer \
-    GoogleRestorePrebuilt-v793553 \
+    GoogleRestorePrebuilt-v842048 \
+    HealthIntelligencePrebuilt-1762 \
     PartnerSetupPrebuilt \
     Phonesky \
     PixelLiveWallpaperPrebuilt-26000013 \
@@ -263,10 +264,10 @@ PRODUCT_PACKAGES += \
     PrebuiltPixelCoreServices \
     RelationshipsPrebuilt-301 \
     SafetyHubPrebuilt \
-    ScribePrebuilt_v8.2.717788270 \
+    ScribePrebuilt_v8.4.773573318 \
     SearchSelectorPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
-    SetupWizardPrebuilt_bd3a \
+    SetupWizardPrebuilt_v811313066 \
     TurboPrebuilt \
     Velvet \
     WallpaperEffect \
@@ -279,7 +280,7 @@ PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     MagicPortraitWallpapers \
     NexusLauncherRelease \
-    SetupWizardPixelPrebuilt_bd3a \
+    SetupWizardPixelPrebuilt_v802960446 \
     StorageManagerGoogle \
     SystemUIClocks-BigNum \
     SystemUIClocks-Calligraphy \

@@ -40,7 +40,7 @@ product/app/CredentialManagerPrebuilt_credentialmanager.android_20250404.06_p0/C
 product/priv-app/DevicePersonalizationPrebuiltPixel2025-playstore_aiai_20250306.00_RC10/DevicePersonalizationPrebuiltPixel2025-playstore_aiai_20250306.00_RC10.apk;PRESIGNED
 
 # ExtServices
-system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|aa9a314dae03a8a672c5bab09e92c5cbe31cf1ea
+system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|441ab322bd95687510a6a0a74e628a90ef801500
 system/etc/permissions/privapp_allowlist_com.google.android.ext.services.xml|cff72cd3f779c862506e48150c3f51f63aed98e3
 
 # Files
