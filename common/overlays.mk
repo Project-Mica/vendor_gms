@@ -2,6 +2,9 @@ PRODUCT_PACKAGES += \
     AvatarPickerPixelOverlay \
     CellBroadcastReceiverOverlay \
     CellBroadcastServiceOverlay \
+    GlanceableHubConfigOverlay \
+    GlanceableHubSettingsConfigOverlay2022 \
+    GlanceableHubSysuiConfigOverlay \
     GoogleConfigOverlay \
     GoogleDeviceLockControllerOverlay \
     GoogleHealthConnectOverlay \
