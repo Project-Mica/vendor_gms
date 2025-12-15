@@ -22,6 +22,7 @@ bool:config_screen_protector_notification_v2
 bool:config_screen_protector_notification_enabled
 bool:config_adaptive_touch_sensitivity_enabled
 bool:config_cv_available
+bool:config_evenDimmerEnabled
 bool:config_biometricFrrNotificationEnabled
 bool:config_refreshRateSynchronizationEnabled
 bool:config_repairModeSupported
