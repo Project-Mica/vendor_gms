@@ -844,6 +844,7 @@ android_app_import {
 	name: "SetupWizardPrebuilt_v811313066",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/SetupWizardPrebuilt_v811313066/SetupWizardPrebuilt_v811313066.apk",
+	overrides: ["Provision"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
