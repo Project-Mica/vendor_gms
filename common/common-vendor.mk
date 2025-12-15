@@ -237,13 +237,11 @@ PRODUCT_PACKAGES += \
     AndroidAutoStubPrebuilt \
     ConfigUpdater \
     CustomizationBundlePrebuilt \
-    DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02 \
     DevicePersonalizationPrebuiltPixel2025-playstore_aiai_20250306.00_RC10 \
     FilesPrebuilt \
     GeminiShell_227 \
     GoogleOneTimeInitializer \
     GoogleRestorePrebuilt-v842048 \
-    HealthIntelligencePrebuilt-1762 \
     PartnerSetupPrebuilt \
     Phonesky \
     PixelLiveWallpaperPrebuilt-26000013 \

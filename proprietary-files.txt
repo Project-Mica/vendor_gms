@@ -77,11 +77,7 @@ product/priv-app/PrebuiltGmsCoreVic/PrebuiltGmsCoreVic.apk;OVERRIDES=StatementSe
 system/app/GoogleExtShared/GoogleExtShared.apk;OVERRIDES=ExtShared;PRESIGNED
 system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk;PRESIGNED
 
-# Health
-product/priv-app/HealthIntelligencePrebuilt-1762/HealthIntelligencePrebuilt-1762.apk;PRESIGNED
-
 # Intelligence
-product/priv-app/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02.apk;PRESIGNED
 product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;PRESIGNED
 
 # Keyboard
@@ -353,6 +349,8 @@ product/app/WallpaperAIPrebuilt_10000372/WallpaperAIPrebuilt_10000372.apk;PRESIG
 product/priv-app/PixelLiveWallpaperPrebuilt-26000013/PixelLiveWallpaperPrebuilt-26000013.apk;PRESIGNED
 product/priv-app/WallpaperEffect/WallpaperEffect.apk;PRESIGNED
 system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk;OVERRIDES=ThemePicker,WallpaperPicker,WallpaperPicker2,WallpaperCropper;PRESIGNED
+product/priv-app/CustomizationBundlePrebuilt/CustomizationBundlePrebuilt.apk;PRESIGNED
+system_ext/priv-app/MagicPortraitWallpapers/MagicPortraitWallpapers.apk;PRESIGNED
 
 # Sysconfig
 product/etc/preferred-apps/google.xml
@@ -414,7 +412,3 @@ product/app/PlayAutoInstallConfig/PlayAutoInstallConfig.apk;PRESIGNED
 
 # Pixel VIPs
 product/priv-app/RelationshipsPrebuilt-301/RelationshipsPrebuilt-301.apk;PRESIGNED
-
-# WIP
-product/priv-app/CustomizationBundlePrebuilt/CustomizationBundlePrebuilt.apk;PRESIGNED
-system_ext/priv-app/MagicPortraitWallpapers/MagicPortraitWallpapers.apk;PRESIGNED
