@@ -60,6 +60,5 @@ string:face_recalibrate_notification_name
 string:face_recalibrate_notification_title
 string:fingerprint_error_bad_calibration
 string:fingerprint_recalibrate_notification_content
-string:platform_carrier_config_package
 string:config_fingerprintFrrTargetComponent
 
