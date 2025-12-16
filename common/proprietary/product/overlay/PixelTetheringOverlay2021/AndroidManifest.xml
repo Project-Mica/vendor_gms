@@ -2,5 +2,5 @@
     package="com.google.android.networkstack.tethering.overlay2021_gms">
     <overlay android:targetPackage="com.google.android.networkstack.tethering"
                    android:targetName="TetheringConfig"
-                   android:isStatic="true"/>
+                   android:isStatic="true" />
 </manifest>

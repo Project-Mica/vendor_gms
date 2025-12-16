@@ -3,6 +3,7 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiverOverlay \
     CellBroadcastServiceOverlay \
     GlanceableHubConfigOverlay \
+    GlanceableHubSettingsConfigOverlay \
     GlanceableHubSettingsConfigOverlay2022 \
     GlanceableHubSysuiConfigOverlay \
     GoogleConfigOverlay \
