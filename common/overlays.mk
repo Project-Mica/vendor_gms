@@ -29,6 +29,6 @@ PRODUCT_PACKAGES += \
     PixelSystemUIGoogle \
     PixelTelecom \
     PixelTeleService \
-    PixelTetheringOverlay2021 \
     SystemUIGXOverlay \
+    UdfpsOverlay \
     WildlifeSettingsVpnOverlay2022 \

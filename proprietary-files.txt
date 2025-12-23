@@ -412,3 +412,5 @@ product/app/PlayAutoInstallConfig/PlayAutoInstallConfig.apk;PRESIGNED
 
 # Pixel VIPs
 product/priv-app/RelationshipsPrebuilt-301/RelationshipsPrebuilt-301.apk;PRESIGNED
+
+product/overlay/UdfpsOverlay.apk
