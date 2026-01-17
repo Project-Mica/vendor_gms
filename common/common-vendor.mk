@@ -286,6 +286,7 @@ PRODUCT_PACKAGES += \
     SystemUIClocks-Inflate \
     SystemUIClocks-Metro \
     SystemUIClocks-NumOverlap \
+    SystemUIClocks-Weather \
     TurboAdapter \
     WallpaperPickerGoogleRelease
 
